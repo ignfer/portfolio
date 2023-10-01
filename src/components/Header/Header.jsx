@@ -22,7 +22,7 @@ function Header(){
 
                 <section className='header-about-me-section'>
                     <section className='about-me-header'>
-
+                        <h3> About me: </h3>
                     </section>
 
                     <section className='about-me-content'>
