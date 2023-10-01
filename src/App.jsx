@@ -16,7 +16,7 @@ function App() {
             </section>
 
             <section className='header-contact-section'>
-              
+              contact me 
             </section>
           </section>
 
