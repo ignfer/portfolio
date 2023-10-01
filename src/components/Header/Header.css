@@ -30,6 +30,16 @@ header{
   float:right;
   width: 60%;
   height: 100%;
+  text-align: right;
+  font-size: xx-large;
+
+  box-sizing: border-box;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:end;
 }
 
 .header-pfp-contact-section{
@@ -99,5 +109,5 @@ header{
   text-align: left;
   padding: 1.5rem;
 
-  font-size: xx-large;
+  font-size: large;
 }

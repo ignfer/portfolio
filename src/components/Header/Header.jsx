@@ -6,7 +6,7 @@ function Header(){
 
                     <section className='header-pfp-contact-section'>
                         <section className='header-photo-section'>
-                            <img src={'../public/assets/dev-profile-picture-bw.png'}></img>
+                            <img src={'../public/assets/images/dev-profile-picture-bw.png'}></img>
                         </section>
 
                         <section className='header-contact-section'>
@@ -15,7 +15,8 @@ function Header(){
                     </section>
 
                     <section className='header-title-section'>
-                        <h1>Ignacio Fernández</h1>
+                        <img src={'../public/assets/svgs/IF_LOGO.svg'}></img>
+                        <h1>Ignacio<br></br>Fernández</h1>
                     </section>
                     
                 </section>
