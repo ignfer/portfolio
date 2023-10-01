@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /*background-color: #242424;*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,13 +16,8 @@
   --dark-color-0:#141414;
   --darl-color-1:#292929;
 
-  --default-margin-width:3px;
+  --default-border-width:3px;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: var(--dark-color-0);
-}
+
+
