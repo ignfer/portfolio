@@ -31,7 +31,9 @@ header{
   width: 60%;
   height: 100%;
   text-align: right;
-  font-size: xx-large;
+  /*font-size: xx-large;*/
+  font-size: clamp(12px,25px,48px);
+
 
   box-sizing: border-box;
   padding: 1.5rem;
@@ -40,6 +42,14 @@ header{
   flex-direction: column;
   justify-content: space-between;
   align-items:end;
+
+  overflow: hidden;
+
+}
+
+.header-title-section > img{
+  width: 40%;
+  float:right;
 }
 
 .header-pfp-contact-section{
@@ -86,6 +96,9 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  color:var(--dark-color-2);
+  font-weight:800;
 }
 
 .header-about-me-section{
@@ -112,6 +125,8 @@ header{
   padding: 1.5rem;
 
   font-size: large;
+
+  color:var(--dark-color-2);
 }
 
 .about-me-content{
@@ -120,4 +135,11 @@ header{
   padding: 1.5rem;
 
   overflow: scroll;
+
+  text-align: left;
+}
+
+.about-me-content > p{
+  color:var(--dark-color-3);
+  font-weight: 500;
 }
