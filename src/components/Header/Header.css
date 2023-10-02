@@ -96,6 +96,8 @@ header{
   justify-content: center;
   align-items: start;
   flex-wrap: wrap;
+  
+  overflow: hidden;
 }
 
 .about-me-header{
@@ -110,4 +112,12 @@ header{
   padding: 1.5rem;
 
   font-size: large;
+}
+
+.about-me-content{
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+
+  overflow: scroll;
 }
