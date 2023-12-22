@@ -1,0 +1,25 @@
+.contact{
+  width: 100%;
+  height: 20%;
+
+  box-sizing: border-box;
+  padding: 1.5vh;
+  border-style: none solid none none;
+  border-width: var(--border-default-width);
+  border-color: var(--dark-color-1);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color:var(--dark-color-2);
+  font-weight:800;
+}
+
+.contact-images-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}

@@ -1,22 +1,22 @@
-function Header(){
+import Contact from '../Contact/Contact.jsx';
+import ProfilePicture from '../ProfilePicture/ProfilePicture.jsx';
+
+import './Header.css'
+export default function Header(){
     return(
         <>
             <header>
                 <section className='header-info-section'>
 
                     <section className='header-pfp-contact-section'>
-                        <section className='header-photo-section'>
-                            <img src={'../public/assets/images/dev-profile-picture-bw.png'}></img>
-                        </section>
-
-                        <section className='header-contact-section'>
-                            contact me 
-                        </section>
+                        <ProfilePicture/>
+                        <Contact/>
                     </section>
 
                     <section className='header-title-section'>
                         <img src={'../public/assets/svgs/IF_LOGO.svg'}></img>
                         <h1>Ignacio<br></br>Fernández</h1>
+                        <h4>Junior Software<br></br>Developer</h4>
                     </section>
                     
                 </section>
@@ -43,5 +43,3 @@ function Header(){
         </>
     );
 }
-
-export { Header };

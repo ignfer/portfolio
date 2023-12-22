@@ -1,0 +1,25 @@
+.photo-section{
+  width: 100%;
+  height: 80%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  border-style: none solid solid none;
+  border-width: var(--border-default-width);
+  border-color: var(--dark-color-1);
+  
+  overflow: hidden;
+}
+
+.photo-section > img {
+  width: 70%;
+  
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 100%;
+  border-width: var(--border-default-width);
+  border-color: var(--dark-color-1);
+}

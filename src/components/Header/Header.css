@@ -31,7 +31,6 @@ header{
   width: 60%;
   height: 100%;
   text-align: right;
-  /*font-size: xx-large;*/
   font-size: clamp(12px,25px,48px);
 
 
@@ -40,7 +39,7 @@ header{
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items:end;
 
   overflow: hidden;
@@ -48,57 +47,23 @@ header{
 }
 
 .header-title-section > img{
-  width: 40%;
+  width: 30%;
   float:right;
+}
+
+.header-title-section > h4{
+  font-weight: 400;
+  color: var(--dark-color-2);
+}
+
+.header-title-section > h1{
+  font-weight:600;
 }
 
 .header-pfp-contact-section{
   width: 40%;
   height: 100%;
   float:left;
-}
-
-.header-photo-section{
-  width: 100%;
-  height: 80%;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  box-sizing: border-box;
-  border-style: none solid solid none;
-  border-width: var(--border-default-width);
-  border-color: var(--dark-color-1);
-  
-  overflow: hidden;
-}
-
-.header-photo-section > img {
-  width: 70%;
-  
-  box-sizing: border-box;
-  border-style: solid;
-  border-radius: 100%;
-  border-width: var(--border-default-width);
-  border-color: var(--dark-color-1);
-}
-
-.header-contact-section{
-  width: 100%;
-  height: 20%;
-
-  box-sizing: border-box;
-  border-style: none solid none none;
-  border-width: var(--border-default-width);
-  border-color: var(--dark-color-1);
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color:var(--dark-color-2);
-  font-weight:800;
 }
 
 .header-about-me-section{
