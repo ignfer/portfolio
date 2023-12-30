@@ -1,0 +1,14 @@
+.about-me-header{
+  width: 100%;
+
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-width: var(--border-default-width);
+  border-color: var(--dark-color-1);
+
+  text-align: left;
+  padding: 1rem;
+
+  font-size:x-large;
+  color:var(--dark-color-2);
+}

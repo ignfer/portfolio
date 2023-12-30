@@ -1,6 +1,8 @@
 .photo-section{
   width: 100%;
-  height: 80%;
+  height: 70%;
+
+  padding: 1rem;
   
   display: flex;
   justify-content: center;
@@ -15,7 +17,7 @@
 }
 
 .photo-section > img {
-  width: 70%;
+  width: 90%;
   
   box-sizing: border-box;
   border-style: solid;

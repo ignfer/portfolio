@@ -1,0 +1,16 @@
+.about-me-content{
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+
+  overflow: scroll;
+
+  font-size: large;
+
+  text-align: left;
+}
+
+.about-me-content > p{
+  color:var(--dark-color-3);
+  font-weight: 500;
+}
