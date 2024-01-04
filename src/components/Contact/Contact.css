@@ -33,12 +33,12 @@
   gap: 0.5rem;
 }
 
-.contact-images-container > img {
+.contact-images-container > a {
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
-.contact-images-container > img:hover{  
+.contact-images-container > a:hover{  
   transform: scale(120%);
   filter: brightness(200%);
 }
