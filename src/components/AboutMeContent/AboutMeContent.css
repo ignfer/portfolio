@@ -6,11 +6,16 @@
   overflow: scroll;
 
   font-size: large;
-
   text-align: left;
+
 }
 
 .about-me-content > p{
   color:var(--dark-color-3);
   font-weight: 500;
+  transition: all 0.4s;
+}
+
+.about-me-content:hover > p{
+  color:var(--dark-color-4);
 }
