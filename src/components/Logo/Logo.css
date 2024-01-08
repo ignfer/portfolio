@@ -44,3 +44,22 @@
   color:var(--dark-color-4);
   text-shadow: 0px 2px 10px var(--dark-color-2);
 }
+
+@media (max-width: 768px) {
+  .header-title-section{
+    height: auto;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+    align-items: flex-end;
+    gap: 1rem;
+
+    background-color: yellow;
+  }
+
+  .header-title-section > h4{
+    display: none;
+  }
+}
