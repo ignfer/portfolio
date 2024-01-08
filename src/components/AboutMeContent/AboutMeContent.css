@@ -20,3 +20,11 @@
 .about-me-content:hover > p{
   color:var(--dark-color-4);
 }
+
+.divider{
+  box-sizing: border-box;
+  background-color: var(--dark-color-1);
+  height: 3px;
+  width: 90%;
+  margin: 0.5rem 0 0.5rem 0;
+}

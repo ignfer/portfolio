@@ -5,7 +5,7 @@ import NavBar from '../NavBar/NavBar';
 export default function Main(){
   return(
     <>
-      <main>
+      <main className='main'>
         <NavBar/>
       </main>
     </>

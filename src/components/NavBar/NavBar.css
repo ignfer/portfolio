@@ -18,7 +18,7 @@
 
 .navbar > li {
   cursor: pointer;
-  transition:all 0.4s;
+  transition:all 0.2s;
 }
 
 .navbar > li:hover{

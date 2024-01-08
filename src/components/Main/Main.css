@@ -1,0 +1,19 @@
+main{
+  width: 70%;
+  height: 100vh;
+  max-width: 1500px;
+  max-height: 2000px;
+
+  box-sizing: border-box;
+  border-style: none solid solid none;
+  border-width: var(--border-default-width);
+  border-color: var(--dark-color-1);
+
+  background-color: var(--dark-color-0);
+}
+
+@media (max-width: 768px) {
+  main{
+    width: 100%;
+  }
+}
