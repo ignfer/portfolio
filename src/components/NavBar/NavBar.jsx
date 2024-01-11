@@ -9,6 +9,7 @@ export default function NavBar(){
         <li>MY WORK</li>
         <li>TECH STACK</li>
         <li>EDUCATION</li>
+        <li>BLOG</li>
         <ToggleButtons/>
       </ul>
       

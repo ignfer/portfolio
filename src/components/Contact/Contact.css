@@ -15,29 +15,56 @@
   transition: all 0.4s;
 }
 
-.contact-images-container{
+.contact-item-container{
   width: 100%;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   
   gap: 0.5rem;
 }
 
-.contact-images-container > a {
-  transition-duration: 0.4s;
+.contact-item-container > a {
+  transition: all 0.4s;
   cursor: pointer;
 }
 
-.contact-images-container > a:hover{  
+.contact-item{
+  width: 100%;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
+
+  color: var(--dark-color-2);
+  transition: all 0.4s;
+}
+
+.contact-item:hover{
+  color: var(--dark-color-4);
+}
+
+.contact-item > a{
+  transition: all 0.4s;
+}
+
+.contact-item:hover > a{
   transform: scale(120%);
   filter: brightness(200%);
 }
 
 @media (max-width: 768px) {
   .contact{
-    background-color: blue;
+    height: 100%;
+    padding: 0.5rem;
+  }
+
+  .contact-item > p{
+    display: none;
   }
 }

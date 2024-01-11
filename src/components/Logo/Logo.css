@@ -47,19 +47,26 @@
 
 @media (max-width: 768px) {
   .header-title-section{
-    height: auto;
-    
+    height: 100%;
+
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
 
-    align-items: flex-end;
-    gap: 1rem;
+    align-items: center;
 
-    background-color: yellow;
+    gap: 1rem;
   }
 
   .header-title-section > h4{
     display: none;
+  }
+
+  .header-title-section > img{
+    /* width: 50%; */
+    width: 7vw;
+    max-width: 100px;
+    float:right;
+    margin-bottom: 0px;
   }
 }

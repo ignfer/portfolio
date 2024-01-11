@@ -27,3 +27,16 @@
   border-width: var(--border-default-width);
   border-color: var(--dark-color-1);
 }
+
+@media (max-width: 768px) {
+  .photo-section{
+    border-style: none solid none none;
+    height: 100%;
+  }
+
+  .photo-section > img{
+    width: 10vh;
+    min-width: 60px;
+  }
+
+}
