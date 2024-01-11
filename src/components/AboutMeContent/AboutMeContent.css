@@ -3,8 +3,6 @@
   box-sizing: border-box;
   padding: 1rem;
 
-  overflow: scroll;
-
   font-size: large;
   text-align: left;
 
@@ -13,12 +11,8 @@
 .about-me-content > p{
   color:var(--dark-color-3);
   font-weight: 500;
-  transition: all 0.4s;
+  transition: all 0.2s;
   line-height: normal;
-}
-
-.about-me-content:hover > p{
-  color:var(--dark-color-4);
 }
 
 .divider{
@@ -27,4 +21,25 @@
   height: 3px;
   width: 90%;
   margin: 0.5rem 0 0.5rem 0;
+}
+
+.active-tab{
+  display: block;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+.tab{
+  display: none;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }

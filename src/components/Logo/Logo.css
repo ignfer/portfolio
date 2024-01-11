@@ -37,7 +37,7 @@
   /* font-size: xx-large; */
   font-size: clamp(20px,2vw,52px);
   line-height: clamp(1.2rem,2vw,3rem);
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 
 .header-title-section:hover > h1{
