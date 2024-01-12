@@ -10,6 +10,9 @@ main{
   border-color: var(--dark-color-1);
 
   background-color: var(--dark-color-0);
+  
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {

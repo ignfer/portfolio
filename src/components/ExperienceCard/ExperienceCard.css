@@ -1,0 +1,38 @@
+.experience-card{
+  border-style: solid;
+  border-width: var(--border-default-width);
+  border-color: var(--dark-color-1);
+  transition: all 0.2s;
+  flex-grow: 1;
+
+  width: 40%;
+}
+
+.experience-card:hover{
+  transform: scale(102%);
+}
+
+.experience-card-title{
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  text-align: left;
+  
+  border-bottom-style: solid;
+  border-color: var(--dark-color-1);
+}
+
+.experience-card:hover > .experience-card-preview > img{
+  filter: saturate(1);
+}
+
+.experience-card-preview > img{
+  width: 250px;
+  filter: saturate(0);
+  transition: all 0.2s;
+}
+
+.experience-card-description{
+  border-top-style: solid;
+  border-color: var(--dark-color-1);
+  text-align: left;
+  padding: 0.5rem;
+}
