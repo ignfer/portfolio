@@ -15,7 +15,7 @@ export default function Experience(){
           innovation, collaboration, and tangible results.
         </p>
         <div className='experience-card-container'>
-          <ExperienceCard/>
+          <ExperienceCard  title='Tittle test 01' description='this is a test'/>
           <ExperienceCard/>
           <ExperienceCard/>
           <ExperienceCard/>

@@ -1,7 +1,7 @@
 import './Main.css'
 
 import Experience from '../Experience/Experience';
-import TechStack from '../TechStack/TechStack';
+import Stack from '../Stack/Stack';
 import Education from '../Education/Education';
 import Blog from '../Blog/Blog';
 
@@ -18,7 +18,7 @@ export default function Main(){
         <NavBar selectedTab={selectedTab} setSelectedTab={setSelectedTab}/>
         
         {selectedTab === 1 ? <Experience/> : ''}
-        {selectedTab === 2 ? <TechStack/> : ''}
+        {selectedTab === 2 ? <Stack/> : ''}
         {selectedTab === 3 ? <Education/> : ''}
         {selectedTab === 4 ? <Blog/> : ''}
       </main>

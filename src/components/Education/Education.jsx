@@ -3,7 +3,7 @@ import './Education.css'
 export default function Education(){
   return(
     <>
-      <div>
+      <div className='education'>
         Education placeholder
       </div>
     </>

@@ -3,7 +3,7 @@ import './Blog.css'
 export default function Blog(){
   return(
     <>
-      <div>
+      <div className='blog'>
         Blog placeholder
       </div>
     </>

@@ -6,6 +6,8 @@
   flex-grow: 1;
 
   width: 40%;
+
+  cursor: pointer;
 }
 
 .experience-card:hover{
