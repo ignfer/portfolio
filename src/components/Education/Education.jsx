@@ -1,10 +1,13 @@
 import './Education.css'
+import EducationCard from '../EducationCard/EducationCard';
 
 export default function Education(){
   return(
     <>
       <div className='education'>
-        Education placeholder
+        <EducationCard/>
+        <EducationCard/>
+        <EducationCard/>
       </div>
     </>
   );

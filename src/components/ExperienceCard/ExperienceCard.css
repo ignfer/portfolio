@@ -1,6 +1,6 @@
 .experience-card{
   border-style: solid;
-  border-width: var(--border-default-width);
+  border-width: 1px;
   border-color: var(--dark-color-1);
   transition: all 0.2s;
   flex-grow: 1;
@@ -20,6 +20,7 @@
   
   border-bottom-style: solid;
   border-color: var(--dark-color-1);
+  border-width: 1px;
 }
 
 .experience-card:hover > .experience-card-preview > img{
@@ -37,4 +38,5 @@
   border-color: var(--dark-color-1);
   text-align: left;
   padding: 0.5rem;
+  border-width: 1px;
 }
