@@ -1,11 +1,15 @@
 import './EducationCard.css'
 
-export default function EducationCard(){
+export default function EducationCard({imagePath}){
   return(
     <>
       <div className='education-card'>
+        <img width='150px' src={imagePath}></img>
+        <div className='education-card-title'>
+          <span>2021 - Present </span><strong>Technologist Degree in Computer Science</strong>
+          <span className='education-card-badge'> Language </span>
+        </div>
         <p>
-        <span>2021 - Present </span><strong>Technologist Degree in Computer Science</strong>
         The Technologist Degree in Computer Science trains professionals with the skills to act
         in the development, implementation and administration of 
         computer systems. A fundamental aspect is that although students use different 
