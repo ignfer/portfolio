@@ -31,4 +31,13 @@
   text-decoration-thickness: var(--border-default-width);
 }
 
+.navbar-version{
+  font-size: small;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  color:var(--dark-color-1);
+}
+
 

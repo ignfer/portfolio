@@ -15,12 +15,13 @@ header{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
   header{
     width: 100%;
-    flex-direction: column;
   }
 }
 

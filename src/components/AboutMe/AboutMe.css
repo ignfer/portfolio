@@ -9,3 +9,9 @@
   
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .about-me-section{
+    height: 100%;
+  }
+}

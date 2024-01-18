@@ -20,7 +20,6 @@ export default function Main(){
         {selectedTab === 1 ? <Experience/> : ''}
         {selectedTab === 2 ? <Stack/> : ''}
         {selectedTab === 3 ? <Education/> : ''}
-        {selectedTab === 4 ? <Blog/> : ''}
       </main>
     </>
   );

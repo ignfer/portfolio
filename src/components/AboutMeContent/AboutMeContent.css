@@ -1,32 +1,31 @@
 .about-me-content{
-  height: 100%;
   box-sizing: border-box;
+  height: 85%;
   padding: 1rem;
 
-  font-size: large;
   text-align: left;
-
+  
+  overflow:hidden;
 }
 
 .about-me-content > p{
-  color:var(--dark-color-3);
   font-weight: 500;
   transition: all 0.2s;
   line-height: normal;
 }
 
-.divider{
-  box-sizing: border-box;
-  background-color: var(--dark-color-1);
-  height: 3px;
-  width: 90%;
-  margin: 0.5rem 0 0.5rem 0;
-}
-
 .active-tab{
-  display: block;
+  box-sizing: border-box;
+  
+  height: calc(100%);
+
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
+
+  color:var(--dark-color-2);
+  
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 .tab{
