@@ -7,7 +7,6 @@ export default function AboutMeHeader({handleIndexChange,tabIndex}){
           <div className='about-me-tab'>
             <div className={tabIndex === 1 ? 'index selected' : 'index'} onClick={()=>handleIndexChange(1)}></div>
             <div className={tabIndex === 2 ? 'index selected' : 'index'} onClick={()=>handleIndexChange(2)}></div>
-            <div className={tabIndex === 3 ? 'index selected' : 'index'} onClick={()=>handleIndexChange(3)}></div>
           </div>
       </section>
     </>

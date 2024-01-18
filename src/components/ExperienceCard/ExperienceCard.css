@@ -11,7 +11,11 @@
 }
 
 .experience-card:hover{
-  transform: scale(102%);
+  border-color: var(--dark-color-2);
+}
+
+.experience-card:hover > .experience-card-title,.experience-card:hover > .experience-card-description{
+  border-color: var(--dark-color-2);
 }
 
 .experience-card-title{
@@ -21,6 +25,7 @@
   border-bottom-style: solid;
   border-color: var(--dark-color-1);
   border-width: 1px;
+  transition: all 0.2s;
 }
 
 .experience-card:hover > .experience-card-preview > img{
@@ -39,4 +44,5 @@
   text-align: left;
   padding: 0.5rem;
   border-width: 1px;
+  transition: all 0.2s;
 }

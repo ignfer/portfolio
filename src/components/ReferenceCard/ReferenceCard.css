@@ -1,0 +1,21 @@
+.reference-card{
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--dark-color-1);
+
+  padding: 1rem;
+  box-sizing: border-box;
+
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+.reference-card:hover{
+  border-color: var(--dark-color-2);
+}
+
+
+.reference-card > h3{
+  color:var(--dark-color-4);
+}
