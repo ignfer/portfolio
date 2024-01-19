@@ -2,6 +2,19 @@ import ReferenceCard from '../ReferenceCard/ReferenceCard';
 import './AboutMeContent.css'
 export default function AboutMeContent({tabIndex}){
 
+  const referencesJSON = {
+    'people' : [{
+      'name' : 'name placeholder1',
+      'position' : 'position placeholder1',
+      'description' : 'description placeholder1'
+      },{
+      'name' : 'name placeholder2',
+      'position' : 'position placeholder2',
+      'description' : 'description placeholder2'
+      }
+    ]
+  };
+  
   return(
     <>
       <section className='about-me-content'>
@@ -51,6 +64,13 @@ export default function AboutMeContent({tabIndex}){
             that offer the greatest progress.</strong>
           </p>
 
+        </div>
+
+        <div className={tabIndex === 3 ? 'active-tab' : 'tab'}>
+          <p>Personal references from professionals who have worked with me on past or ongoing projects.</p>
+          {referencesJSON.people.map((person,index) =>{
+            return <ReferenceCard key={index} person={person}/>
+          })}
         </div>
 
       </section>

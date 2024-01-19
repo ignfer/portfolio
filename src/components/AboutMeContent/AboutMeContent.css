@@ -1,6 +1,7 @@
 .about-me-content{
   box-sizing: border-box;
   height: 85%;
+  width: 100%;
   padding: 1rem;
 
   text-align: left;
