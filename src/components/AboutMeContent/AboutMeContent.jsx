@@ -6,11 +6,13 @@ export default function AboutMeContent({tabIndex}){
     'people' : [{
       'name' : 'name placeholder1',
       'position' : 'position placeholder1',
-      'description' : 'description placeholder1'
+      'description' : 'description placeholder1',
+      'site' : 'https://www.linkedin.com/in/ignaciofern%C3%A1ndez/'
       },{
       'name' : 'name placeholder2',
       'position' : 'position placeholder2',
-      'description' : 'description placeholder2'
+      'description' : 'description placeholder2',
+      'site' : 'https://www.linkedin.com/in/ignaciofern%C3%A1ndez/'
       }
     ]
   };
