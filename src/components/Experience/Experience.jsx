@@ -8,14 +8,26 @@ export default function Experience(){
   const experienceJSON = {
     'experience':[
       {
-        'title':'TurismoUy',
+        'title':'Java Fullstack distributed app',
         'role':'Java Fullstack developer',
-        'description':'Consisting of a Java Backend, a SOAP API and a web page created using JSP and Servlets, the goal was to create a webpage able to communicate tourist and activities on Uruguay.'
+        'description':'Consisting of a Java Backend, a SOAP API and a web page created using JSP and Servlets, the goal was to create a webpage able to communicate tourist and activities on Uruguay.',
+        'badges':[
+          'Java',
+          'FullStack',
+          'ORM',
+          'MySQL'
+        ]
       },
       {
-        'title':'Buddgy',
+        'title':'Web Spending Tracker',
         'role':'Software engineer - Web developer',
-        'description':'Buddgy is a personal project wich I\'ve created in order to know in which topics or areas I was spending my money.'
+        'description':'Buddgy is a personal project wich I\'ve created in order to know in which topics or areas I was spending my money.',
+        'badges':[
+          'HTML',
+          'CSS',
+          'Java Script',
+          'Build from scratch'
+        ]
       }
     ]
   };
@@ -34,7 +46,7 @@ export default function Experience(){
         <div className='experience-card-container'>
           {
             experienceJSON.experience.map((element,index) => {
-            return <ExperienceCard key={index} title={element.title} description={element.description}/>
+            return <ExperienceCard key={index} experience={element}/>
           })}
         </div>
       </div>

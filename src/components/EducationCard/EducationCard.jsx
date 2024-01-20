@@ -1,3 +1,4 @@
+import Badge from '../Badge/Badge';
 import './EducationCard.css'
 
 export default function EducationCard({imagePath}){
@@ -7,7 +8,7 @@ export default function EducationCard({imagePath}){
         <img width='150px' src={imagePath}></img>
         <div className='education-card-title'>
           <span>2021 - Present </span><strong>Technologist Degree in Computer Science</strong>
-          <span className='education-card-badge'> Language </span>
+          <Badge content={'Language'}/>
         </div>
         <p>
         The Technologist Degree in Computer Science trains professionals with the skills to act

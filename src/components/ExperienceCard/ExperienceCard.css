@@ -14,7 +14,7 @@
   border-color: var(--dark-color-2);
 }
 
-.experience-card:hover > .experience-card-title,.experience-card:hover > .experience-card-description{
+.experience-card:hover > .experience-card-title,.experience-card:hover > .experience-card-description, .experience-card:hover > .experience-card-badges{
   border-color: var(--dark-color-2);
 }
 
@@ -33,10 +33,11 @@
 }
 
 .experience-card-preview > img{
-  width: 450px;
+  width: 100%;
+  height: 100%;
   filter: saturate(0);
   transition: all 0.2s;
-  aspect-ratio: 16/9;
+  /* aspect-ratio: 16/9; */
 }
 
 .experience-card-description{
@@ -45,5 +46,18 @@
   text-align: left;
   padding: 0.5rem;
   border-width: 1px;
+  transition: all 0.2s;
+}
+
+.experience-card-badges{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  gap: 0.5rem;
+
+  border-top-style: solid;
+  border-color: var(--dark-color-1);
+  border-width: 1px;
+
   transition: all 0.2s;
 }
