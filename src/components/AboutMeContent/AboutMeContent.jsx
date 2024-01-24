@@ -4,15 +4,15 @@ export default function AboutMeContent({tabIndex}){
 
   const referencesJSON = {
     'people' : [{
-      'name' : 'name placeholder1',
-      'position' : 'position placeholder1',
-      'description' : 'description placeholder1',
-      'site' : 'https://www.linkedin.com/in/ignaciofern%C3%A1ndez/'
+      'name' : 'Alexis Velázquez',
+      'position' : 'Customer Support Specialist at Netuy',
+      'description' : 'I sincerely recommend Ignacio as an exceptional software developer or any other related IT position. We were teammates on numerous projects, and I\'ve consistently witnessed Ignacio\'s passion for software development and his pursue to deliver top-notch code. His commitment to understand the project from every angle is a very diserable trait.',
+      'site' : 'https://www.linkedin.com/in/alexis-velazquez-perazzo/'
       },{
-      'name' : 'name placeholder2',
-      'position' : 'position placeholder2',
-      'description' : 'description placeholder2',
-      'site' : 'https://www.linkedin.com/in/ignaciofern%C3%A1ndez/'
+      'name' : 'Diego Villalba',
+      'position' : 'System Developer at CargoNet',
+      'description' : 'After working together on various projects it is with great confidence that I recommend Ignacio as a standout software developer. He exhibits a genuine passion for their craft and he is  on continuous pursuit of learning from peers. I highly endorse Ignacio as a valuable team member.',
+      'site' : 'https://www.linkedin.com/in/diego-villalba-9426321b8/'
       }
     ]
   };

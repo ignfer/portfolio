@@ -11,7 +11,7 @@ export default function ReferenceCard({person}){
         </a>
       </div>
       
-      <h5>Current position: {person.position}</h5>
+      <h5>{person.position}</h5>
       <p>&quot;{person.description}&quot;</p>
     </div>
     </>
