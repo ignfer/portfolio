@@ -14,9 +14,11 @@ export default function Education(){
         'skill':[
           'C++',
           'Java',
+          'Computer Networks',
+          'Operative Systems',
+          'Linux administration',
           'Assembly',
           'Python',
-          'Networks'
         ]
       }
     ]

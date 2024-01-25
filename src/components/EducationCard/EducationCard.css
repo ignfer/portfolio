@@ -7,38 +7,75 @@
 
   width: 100%;
 
-  padding: 1rem;
   box-sizing: border-box;
   margin: 1rem 0 1rem 0;
 
   display: flex;
   flex-direction: row;
-  gap:0.5rem;
 
   text-align: left;
 }
 
-.education-card > img{
-  width: 150px;
+.education-card-image-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  filter: saturate(0);
+  overflow: hidden;
 }
 
-.education-card-badge{
-  background-color: var(--dark-color-0);
+.education-card-image-container > img{
+  width: 90%;
+  height: 90%;
+}
 
-  border-radius: 100px;
-  border-style: solid;
+.education-card-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: var(--dark-color-1);
+}
+
+.education-card-title{
+  width: 100%;
+  
+  border-bottom-style: solid;
   border-width: 1px;
   border-color: var(--dark-color-1);
 
   box-sizing: border-box;
-  margin: 0.25rem;
-  padding: 0.1rem;
-  
-  color:var(--dark-color-3);
-  font-weight: 600;
+  padding: 0.5rem;
 }
 
-.education-card-title{
-  background-color: red;
-  width: 100%;
+.education-card-badges{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  border-bottom-style: solid;
+  border-color: var(--dark-color-1);
+  border-width: 1px;
+
+  transition: all 0.2s;
+
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.education-card-description{
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.education-card-details{
+  padding: 0.5rem;
+  border-bottom-style: solid;
+  border-color: var(--dark-color-1);
+  border-width: 1px;
 }
