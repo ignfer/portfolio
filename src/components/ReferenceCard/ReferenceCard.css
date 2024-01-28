@@ -10,7 +10,7 @@
 }
 
 .reference-card:hover{
-  border-color: var(--dark-color-2);
+  border-color: var(--dark-color-5);
 }
 
 .reference-card:hover > .reference-card-title{

@@ -4,15 +4,15 @@ export default function AboutMeContent({tabIndex}){
 
   const referencesJSON = {
     'people' : [{
-      'name' : 'Alexis Velázquez',
-      'position' : 'Customer Support Specialist at Netuy',
-      'description' : 'I sincerely recommend Ignacio as an exceptional software developer or any other related IT position. We were teammates on numerous projects, and I\'ve consistently witnessed Ignacio\'s passion for software development and his pursue to deliver top-notch code. His commitment to understand the project from every angle is a very diserable trait.',
-      'site' : 'https://www.linkedin.com/in/alexis-velazquez-perazzo/'
-      },{
       'name' : 'Diego Villalba',
       'position' : 'System Developer at CargoNet',
       'description' : 'After working together on various projects it is with great confidence that I recommend Ignacio as a standout software developer. He exhibits a genuine passion for their craft and he is  on continuous pursuit of learning from peers. I highly endorse Ignacio as a valuable team member.',
       'site' : 'https://www.linkedin.com/in/diego-villalba-9426321b8/'
+      },{
+      'name' : 'Alexis Velázquez',
+      'position' : 'Customer Support Specialist at Netuy',
+      'description' : 'I\'ve partnered up with Ignacio on various development projects, and I\'d like to recommend him as a great teammate for his soft skills. He is very disciplined, organized, and consistent. Ignacio possesses excellent communication skills, quickly integrates himself into any team, and always seeks to understand projects as a whole. This leads him to ask for help when needed and to continually try to learn from others. His presence greatly boosts team cohesion, and he is always ready to help a teammate.',
+      'site' : 'https://www.linkedin.com/in/alexis-velazquez-perazzo/'
       }
     ]
   };
@@ -69,7 +69,7 @@ export default function AboutMeContent({tabIndex}){
         </div>
 
         <div className={tabIndex === 3 ? 'active-tab' : 'tab'}>
-          <p>Personal references from professionals who have worked with me on past or ongoing projects.</p>
+          <p>Recommendations from professionals who have worked with me on past or ongoing projects.</p>
           {referencesJSON.people.map((person,index) =>{
             return <ReferenceCard key={index} person={person}/>
           })}
