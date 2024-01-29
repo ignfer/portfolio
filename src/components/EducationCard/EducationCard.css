@@ -14,12 +14,14 @@
   flex-direction: row;
 
   text-align: left;
-
-  cursor: pointer;
 }
 
 .education-card:hover, .education-card:hover > .education-card-content, .education-card:hover > .education-card-content > *{
   border-color: var(--dark-color-5);
+}
+
+.education-card:hover > .education-card-image-container > img{
+  filter: brightness(150%);
 }
 
 .education-card-image-container{
@@ -33,10 +35,14 @@
   overflow: hidden;
 
   max-width: 250px;
+  min-width: 250px;
+  
+  cursor: pointer;
 }
 
 .education-card-image-container > img{
   width: 90%;
+  transition: all 0.2s;
 }
 
 .education-card-content{
@@ -62,6 +68,13 @@
   padding: 0.5rem;
 
   transition: inherit;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-card-title > a {
+  color: var(--dark-color-2);
 }
 
 .education-card-badges{

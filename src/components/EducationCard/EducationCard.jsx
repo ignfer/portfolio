@@ -9,13 +9,16 @@ export default function EducationCard({course}){
 
   return(
     <>
-      <div className='education-card' onClick={redirect}>
-        <div className='education-card-image-container'>
+      <div className='education-card'>
+        <div className='education-card-image-container' onClick={redirect}>
           <img src={course.imagepath}></img>
         </div>
         
         <div className='education-card-content'>
-          <div className='education-card-title'><strong>{course.title}</strong></div>
+          <div className='education-card-title'>
+            <strong>{course.title} </strong> 
+            {course.certification !== undefined ? (<a href={course.certification}>See certification</a>) : null}
+          </div>
               
           <div className='education-card-badges'>
             {course.skill.map((skill,index) => {
@@ -27,8 +30,7 @@ export default function EducationCard({course}){
             <p>
               <strong>Organization: </strong>{course.organization}<br></br>
               <strong>Year: </strong>{course.year}<br></br>
-              <strong>Status: </strong>{course.status}<br></br>
-              <strong>Grade: </strong>{course.gpa}<br></br>
+              <strong>Status: </strong>{course.status}<br></br>              
             </p>
           </div>
               

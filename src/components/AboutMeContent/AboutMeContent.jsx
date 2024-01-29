@@ -6,7 +6,7 @@ export default function AboutMeContent({tabIndex}){
     'people' : [{
       'name' : 'Diego Villalba',
       'position' : 'System Developer at CargoNet',
-      'description' : 'After working together on various projects it is with great confidence that I recommend Ignacio as a standout software developer. He exhibits a genuine passion for their craft and he is  on continuous pursuit of learning from peers. I highly endorse Ignacio as a valuable team member.',
+      'description' : 'After working together on various projects, it is with great confidence that I recommend Ignacio as a standout software developer. He exhibits a genuine passion for his craft and is on a continuous pursuit of learning from peers. I\'ve felt completely confident delegating tasks to him, given his independence. Additionally, his positive attitude, coupled with a strong work ethic, makes him an asset to any project as a valuable team member.',
       'site' : 'https://www.linkedin.com/in/diego-villalba-9426321b8/'
       },{
       'name' : 'Alexis Velázquez',
