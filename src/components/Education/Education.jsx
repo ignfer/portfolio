@@ -11,7 +11,7 @@ export default function Education(){
         'imagepath':'./assets/svgs/utec.svg',
         'site':'https://utec.edu.uy/en/education/undergraduate-study/technologist-degree-in-computer-science/',
         'status':'in course | first two years already completed with a 4.6/5 GPA',
-        'year':'2021 - Present',
+        'year':'2022 - Present',
         'skill':[
           'C++',
           'Java',
