@@ -81,7 +81,7 @@ export default function Experience(){
         <div className='experience-card-container'>
           {
             experienceJSON.experience.map((element,index) => {
-            return <ExperienceCard key={index} experience={element}/>
+            return <ExperienceCard key={index} index={index} experience={element}/>
           })}
         </div>
       </div>

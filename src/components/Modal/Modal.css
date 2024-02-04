@@ -17,6 +17,10 @@
 
   border-width: 1px;
   border-color: var(--dark-color-1);
+}
 
-  visibility: hidden;
+.modal-banner{
+  background-color: yellow;
+  height: 10vh;
+  width: 100%;
 }
