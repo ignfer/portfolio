@@ -1,0 +1,22 @@
+.modal{  
+  margin: 5rem;
+  padding: 1rem;
+
+  background-color: var(--dark-color-0);
+
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  color: var(--dark-color-4);
+
+  border-width: 1px;
+  border-color: var(--dark-color-1);
+
+  visibility: hidden;
+}

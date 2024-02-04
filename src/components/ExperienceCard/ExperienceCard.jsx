@@ -1,5 +1,5 @@
 import Badge from '../Badge/Badge';
-
+import Modal from '../Modal/Modal';
 import './ExperienceCard.css'
 
 export default function ExperienceCard({experience}){
@@ -9,7 +9,6 @@ export default function ExperienceCard({experience}){
         <h2 className='experience-card-title'>{experience.title}</h2>
         
         <div className='experience-card-preview'>
-          {/* <img src='../assets/images/experience_img_placeholder.png'></img> */}
           <img src={experience.imagepath}></img>
         </div>
 
