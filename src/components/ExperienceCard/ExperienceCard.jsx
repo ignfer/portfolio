@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Badge from '../Badge/Badge';
 import '../Modal/Modal.css'
 import './ExperienceCard.css'
@@ -9,7 +10,7 @@ export default function ExperienceCard({index,experience}){
   of the card*/
 
   const modalId = 'experienceModal' + index
-  
+
   const openModal = () => {
     const modalInstance = document.querySelector('#' + modalId);
     modalInstance.showModal();
@@ -19,24 +20,24 @@ export default function ExperienceCard({index,experience}){
     const modalInstance = document.querySelector('#' + modalId);
     modalInstance.close();
   }
-
-  const test = () => {
-    console.log('test');
-  }
   
   return(
     <>
-      { 
-        <dialog className='modal' id={modalId}>
-          <img className='modal-banner' src={experience.imagepath}></img>
-          <h1>{experience.title}</h1>
-          <h3>Role: {experience.modalRole}</h3>
-          <h4>{experience.modalDescription}</h4>
-          
-          <button>Go to the project repo</button>
-          <button onClick={closeModal}>Close</button>
-        </dialog>
-      }
+    
+    <dialog className='modal' id={modalId}>
+      <div className='modal-banner'>
+      <img src={experience.imagepath}></img>
+      </div>
+      
+      <div className='modal-container'>
+        <h1>{experience.title}</h1>
+        <h3>Role: {experience.modalRole}</h3>
+        <p>{experience.modalDescription}</p>
+        
+        <button>Go to the project repo</button>
+        <button onClick={closeModal}>Close</button>
+      </div>
+    </dialog>
 
       <div className='experience-card' onClick={openModal}>
         <h2 className='experience-card-title'>{experience.title}</h2>

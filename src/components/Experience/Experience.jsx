@@ -24,7 +24,6 @@ export default function Experience(){
       },{
         'imagepath':'./assets/images/budggy.png',
         'title':'Java Fullstack distributed app',
-        'role':'Java Fullstack developer',
         'description':'Consisting of a Java Backend, a SOAP API and a web page created using JSP and Servlets, the goal was to create a webpage able to communicate tourist and activities on Uruguay.',
         'badges':[
           'Java',
@@ -38,7 +37,6 @@ export default function Experience(){
       },{
         'imagepath':'./assets/images/budggy.png',
         'title':'Web Spending Tracker',
-        'role':'Software engineer - Web developer',
         'description':'Buddgy is a personal project wich I\'ve created in order to know in which topics or areas I was spending my money.',
         'badges':[
           'Frontend',
@@ -54,7 +52,6 @@ export default function Experience(){
       },{
         'imagepath':'./assets/images/budggy.png',
         'title':'Hotels Manager',
-        'role':'Software engineer - Web developer',
         'description':'Buddgy is a personal project wich I\'ve created in order to know in which topics or areas I was spending my money.',
         'badges':[
           'C++',
@@ -66,7 +63,7 @@ export default function Experience(){
       }
     ]
   };
-  
+
   return(
     <>
       <div className='experience'>
