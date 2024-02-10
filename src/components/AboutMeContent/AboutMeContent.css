@@ -30,7 +30,6 @@
   color:var(--dark-color-2);
   
   overflow-y: scroll;
-  scrollbar-width: none;
 }
 
 .tab{

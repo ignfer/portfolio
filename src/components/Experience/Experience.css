@@ -8,7 +8,6 @@
   flex-grow: 1;
 
   overflow-y: scroll;
-  scrollbar-width: none;
 }
 
 .experience-card-container{
@@ -16,6 +15,5 @@
   flex-direction: row;
   flex-wrap: wrap;
 
-  gap: 1rem;
-  margin-top: 1rem;
+  justify-content: space-between;
 }

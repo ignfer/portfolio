@@ -8,7 +8,5 @@
   flex-grow: 1;
 
   overflow-y: scroll;
-  scrollbar-width: none;
   box-sizing: border-box;
-
 }

@@ -15,7 +15,6 @@
   animation: fadeEffect 0.2s;
 
   overflow-y: scroll;
-  scrollbar-width: none;
 }
 
 .modal::backdrop{
@@ -26,10 +25,9 @@
 .modal-banner{
   width: 100%;
   height: 50vh;
-  overflow: hidden;
+  
+  overflow: scroll;
 }
-
-
 
 .modal-banner > img {
   width: 100%;
@@ -47,4 +45,26 @@
   padding: 1rem;
 
   color: var(--dark-color-3);
+}
+
+.modal-buttons-wrapper{
+  display: flex;
+  gap: 1rem;
+}
+
+.modal-buttons-wrapper > button {  
+  color: var(--dark-color-2);
+  font-weight: 600;
+  font-size:medium;
+
+  box-sizing: border-box;
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+.modal-buttons-wrapper > button:hover {
+  background-color: var(--dark-color-2); 
+  color: var(--dark-color-0);
 }

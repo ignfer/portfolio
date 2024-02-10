@@ -28,8 +28,6 @@
   gap: 1rem;
 
   flex-wrap: wrap;
-  
-  scrollbar-width: none;
 }
 
 .stack-image-container > img{

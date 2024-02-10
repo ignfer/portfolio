@@ -20,7 +20,7 @@ export default function Experience(){
         ],
         'modalRole':'React Developer',
         'modalDescription':'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value.',
-        'modalGitHubRepo':'https://github.com/ignfer/portfolio.github.io'
+        'modalRepoRoute':'https://github.com/ignfer/portfolio.github.io'
       },{
         'imagepath':'./assets/images/budggy.png',
         'title':'Java Fullstack distributed app',
@@ -33,7 +33,7 @@ export default function Experience(){
         ],
         'modalRole':'React Developer',
         'modalDescription':'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value.',
-        'modalGitHubRepo':'https://github.com/ignfer/portfolio.github.io'
+        'modalRepoRoute':'https://github.com/ignfer/portfolio.github.io',
       },{
         'imagepath':'./assets/images/budggy.png',
         'title':'Web Spending Tracker',
@@ -48,18 +48,8 @@ export default function Experience(){
         ],
         'modalRole':'React Developer',
         'modalDescription':'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value.',
-        'modalGitHubRepo':'https://github.com/ignfer/portfolio.github.io'
-      },{
-        'imagepath':'./assets/images/budggy.png',
-        'title':'Hotels Manager',
-        'description':'Buddgy is a personal project wich I\'ve created in order to know in which topics or areas I was spending my money.',
-        'badges':[
-          'C++',
-          'CLI',
-        ],
-        'modalRole':'React Developer',
-        'modalDescription':'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value.',
-        'modalGitHubRepo':'https://github.com/ignfer/portfolio.github.io'
+        'modalRepoRoute':'https://github.com/ignfer/buddgy.github.io',
+        'modalProjectRoute':'https://ignfer.github.io/buddgy.github.io/'
       }
     ]
   };
@@ -69,11 +59,8 @@ export default function Experience(){
       <div className='experience'>
         <p>
           Here you can explore my software development journey
-          through a collection of impactful projects. From intuitive
-          web applications to efficient mobile solutions, each project showcases my 
-          expertise and commitment to delivering top-notch solutions.
-          Dive into my portfolio to witness a track record of 
-          innovation, collaboration, and tangible results.
+          through a collection of impactful projects. Each project showcases my 
+          expertise and commitment to delivering solutions.
         </p>
         <div className='experience-card-container'>
           {

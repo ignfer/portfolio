@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Badge from '../Badge/Badge';
-import '../Modal/Modal.css'
+
+import Modal from '../Modal/Modal';
 import './ExperienceCard.css'
 
 export default function ExperienceCard({index,experience}){
@@ -23,21 +24,7 @@ export default function ExperienceCard({index,experience}){
   
   return(
     <>
-    
-    <dialog className='modal' id={modalId}>
-      <div className='modal-banner'>
-      <img src={experience.imagepath}></img>
-      </div>
-      
-      <div className='modal-container'>
-        <h1>{experience.title}</h1>
-        <h3>Role: {experience.modalRole}</h3>
-        <p>{experience.modalDescription}</p>
-        
-        <button>Go to the project repo</button>
-        <button onClick={closeModal}>Close</button>
-      </div>
-    </dialog>
+      <Modal experience={experience} closeModal={closeModal} modalId={modalId}></Modal>
 
       <div className='experience-card' onClick={openModal}>
         <h2 className='experience-card-title'>{experience.title}</h2>
