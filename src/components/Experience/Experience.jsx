@@ -19,7 +19,10 @@ export default function Experience(){
           'GitHub Pages'
         ],
         'modalRole':'React Developer',
-        'modalDescription':'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value.',
+        'modalDescription':[
+          'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value as a developer.',
+          'The design process started on Figma'
+        ],
         'modalRepoRoute':'https://github.com/ignfer/portfolio.github.io'
       },{
         'imagepath':'./assets/images/budggy.png',
@@ -32,7 +35,10 @@ export default function Experience(){
           'MySQL'
         ],
         'modalRole':'React Developer',
-        'modalDescription':'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value.',
+        'modalDescription':[
+          'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value as a developer.',
+          'The design process started on Figma'
+        ],
         'modalRepoRoute':'https://github.com/ignfer/portfolio.github.io',
       },{
         'imagepath':'./assets/images/budggy.png',
@@ -47,7 +53,10 @@ export default function Experience(){
           'Personal project'
         ],
         'modalRole':'React Developer',
-        'modalDescription':'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value.',
+        'modalDescription':[
+          'After building various useful and abarcative projects this was the perfect oportunity to use my experience working with React to create a common place in which I could upload all my work and create my own personal brand, to explain my journey as a developer and show my value as a developer.',
+          'The design process started on Figma'
+        ],
         'modalRepoRoute':'https://github.com/ignfer/buddgy.github.io',
         'modalProjectRoute':'https://ignfer.github.io/buddgy.github.io/'
       }

@@ -3,7 +3,7 @@
   border-width: 1px;
   border-color: var(--dark-color-1);
 
-  padding: 1rem;
+  margin: 1rem 0 1rem 0;
   box-sizing: border-box;
 
   transition: all 0.2s;
@@ -22,16 +22,21 @@
   transform: scale(120%);
 }
 
-
 .reference-card > h3{
   color:var(--dark-color-4);
 }
 
 .reference-card-title{
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: var(--dark-color-1);
 
   transition: all 0.2s;
 }
@@ -42,4 +47,8 @@
   align-items: center;
 
   transition: all 0.2s;
+}
+
+.reference-card-description{
+  padding: 1rem;
 }

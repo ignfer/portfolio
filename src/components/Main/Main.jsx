@@ -1,9 +1,8 @@
 import './Main.css'
 
 import Experience from '../Experience/Experience';
-import Stack from '../Stack/Stack';
 import Education from '../Education/Education';
-import Blog from '../Blog/Blog';
+import Endorsement from '../Endorsement/Endorsement';
 
 import { useState } from 'react';
 
@@ -18,8 +17,8 @@ export default function Main(){
         <NavBar selectedTab={selectedTab} setSelectedTab={setSelectedTab}/>
         
         {selectedTab === 1 ? <Experience/> : ''}
-        {selectedTab === 2 ? <Stack/> : ''}
-        {selectedTab === 3 ? <Education/> : ''}
+        {selectedTab === 2 ? <Education/> : ''}
+        {selectedTab === 3 ? <Endorsement/> : ''}
       </main>
     </>
   );

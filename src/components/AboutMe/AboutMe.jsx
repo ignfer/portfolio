@@ -14,7 +14,7 @@ export default function AboutMe(){
     <>
      <section className='about-me-section'>
         <AboutMeHeader handleIndexChange={handleIndexChange} tabIndex={tabIndex}/>
-        <AboutMeContent tabIndex={tabIndex}/>
+        <AboutMeContent tabIndex={tabIndex} handleIndexChange={handleIndexChange}/>
       </section>
     </>
   );

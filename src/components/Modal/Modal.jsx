@@ -8,14 +8,15 @@ export default function Modal({experience,modalId,closeModal}){
   return(
     <>
       <dialog className='modal' id={modalId}>
-        <div className='modal-banner'>
-        <img src={experience.imagepath}></img>
-        </div>
-        
         <div className='modal-container'>
-          <h1>{experience.title}</h1>
-          <h3>Role: {experience.modalRole}</h3>
-          <p>{experience.modalDescription}</p>
+          <h1 className='modal-title'>{experience.title}</h1>
+          <h4>Main role applied: {experience.modalRole}</h4>
+          
+          <div className='modal-description-wrapper'>
+            {experience.modalDescription.map((paragraph,index) => {
+              return <p key={index}>{paragraph}</p>
+            })}
+          </div>
           
           <div className='modal-buttons-wrapper'>
             <button className='badge' onClick={() => redirect(experience.modalRepoRoute)}>Check the code</button>
@@ -24,6 +25,10 @@ export default function Modal({experience,modalId,closeModal}){
             
             <button className='badge' onClick={closeModal}>Close</button>
           </div>
+        </div>
+        
+        <div className='modal-banner'>
+          <img src={experience.imagepath}></img>
         </div>
       </dialog>
     </>
