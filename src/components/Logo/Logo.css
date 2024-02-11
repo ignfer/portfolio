@@ -13,7 +13,7 @@
   align-items:end;
 
   overflow: hidden;
-
+  user-select: none;
 }
 
 .header-title-section > img{

@@ -14,6 +14,7 @@
   color:var(--dark-color-2);
 
   list-style: none;
+  user-select: none;
 }
 
 .navbar > li {
@@ -37,7 +38,7 @@
   top: 0;
   right: 0;
   padding: 0.5rem;
-  color:var(--dark-color-1);
+  color:var(--dark-color-2);
 }
 
 

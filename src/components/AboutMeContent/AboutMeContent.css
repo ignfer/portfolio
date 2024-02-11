@@ -2,7 +2,7 @@
   box-sizing: border-box;
   height: 85%;
   width: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
 
   text-align: left;
   
@@ -11,7 +11,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
 }
 
 .about-me-content > p{
@@ -22,6 +21,7 @@
 
 .active-tab{
   box-sizing: border-box;
+  padding: 1rem;
 
   flex-grow: 1;
   
@@ -35,6 +35,9 @@
   color:var(--dark-color-2);
   
   overflow-y: scroll;
+  user-select: none;
+
+  scrollbar-gutter: stable both-edges;
 }
 
 .tab{
