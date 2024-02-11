@@ -17,6 +17,12 @@
   user-select: none;
 }
 
+@media (max-width: 768px) {
+  .navbar{
+    font-size: small;
+  }
+}
+
 .navbar > li {
   cursor: pointer;
   transition:all 0.2s;

@@ -8,12 +8,21 @@
   width: 100%;
 
   box-sizing: border-box;
-  margin: 1rem 0 1rem 0;
 
   display: flex;
   flex-direction: row;
 
   text-align: left;
+}
+
+@media (max-width: 768px) {
+  .education-card{
+    flex-direction: column;
+    align-items: center;
+  }
+  .education-card-image-container{
+    padding: 1rem;
+  }
 }
 
 .education-card:hover, .education-card:hover > .education-card-content, .education-card:hover > .education-card-content > *{

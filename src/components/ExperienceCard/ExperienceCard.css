@@ -13,6 +13,8 @@
   max-width: calc(50% - 0.75rem);
 
   cursor: pointer;
+
+  overflow: hidden;
 }
 
 .experience-card:hover, .experience-card:hover > * {
