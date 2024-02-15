@@ -20,6 +20,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   .education-card-image-container{
     padding: 1rem;
   }
@@ -64,6 +65,12 @@
   border-color: var(--dark-color-1);
 
   transition: inherit;
+}
+
+@media (max-width: 768px) {
+  .education-card-content{
+    border-width: 0px;
+  }
 }
 
 .education-card-title{

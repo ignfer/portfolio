@@ -67,9 +67,9 @@ export default function Experience(){
     <>
       <div className='experience'>
         <p>
-          Here you can explore my software development journey
-          through a collection of impactful projects. Each project showcases my 
-          expertise and commitment to delivering solutions.
+          As a developer, I have a strong belief in serious projects as a means 
+          of learning and showcasing my skills and my value. Here, you can find my most
+          recent and relevant projects. Click or touch each card to see more information.
         </p>
         <div className='experience-card-container'>
           {
