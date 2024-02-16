@@ -66,4 +66,21 @@
   .contact-item > p{
     display: none;
   }
+
+  .contact-item-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+/* this media query is responsible for avoiding the overflow of the
+contact container, making the images always visible and accesible */
+@media (max-width: 1024px) or (max-height: 768px) {
+  .contact-item-container{
+    flex-direction: row;
+  }
+  
+  .contact-item > p{
+    display: none;
+  }
 }
