@@ -10,7 +10,7 @@ export default function Modal({experience,modalId,closeModal}){
       <dialog className='modal' id={modalId}>
         <div className='modal-container'>
           <h1 className='modal-title'>{experience.title}</h1>
-          <h4>Main role applied: {experience.modalRole}</h4>
+          <p>Developed Role: <strong>{experience.modalRole}</strong></p>
           
           <div className='modal-description-wrapper'>
             {experience.modalDescription.map((paragraph,index) => {
@@ -27,8 +27,12 @@ export default function Modal({experience,modalId,closeModal}){
           </div>
         </div>
         
-        <div className='modal-banner'>
-          <img src={experience.imagepath}></img>
+        <div className='modal-banner-wrapper'>
+          <div className='modal-banner'>
+            <img src={experience.imagepath}></img>
+            <img src={experience.imagepath}></img>
+            <img src={experience.imagepath}></img>
+          </div>
         </div>
       </dialog>
     </>

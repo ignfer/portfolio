@@ -9,8 +9,9 @@ export default function Education(){
     <>
       <div className='education'>
         <p>
-          Explore through my educational background which reflects my broad formation and constant dedication to staying 
-          at the forefront of technology. Currently I am pursuing the last year of my Technologist Degree in Computer Science
+        Currently I am pursuing the <strong>last year of my Technologist Degree in Computer Science</strong>, throughout the years I have been building
+        a foundation supported by academic learning, focused on the fundamentals in order to understand how things works under
+        the hood and how to create quality solutions.
         </p>
         {educationJSON.course.map((course,index) => {
           return(<EducationCard key={index} course={course}/>);
