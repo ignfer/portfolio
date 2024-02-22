@@ -1,7 +1,9 @@
 const experienceJSON = {
   'experience':[
     {
-      'imagepath':'./assets/images/budggy.png',
+      'id':'0',
+      'imagepath':'./assets/images/portfolio.png',
+      'modalImagePath':['./assets/images/portfolio.png','./assets/images/portfolio-1.png','./assets/images/portfolio-2.png'],
       'title':'Personal Web Portfolio',
       'description':'The site you are reading right now!',
       'badges':[
@@ -20,7 +22,9 @@ const experienceJSON = {
       ],
       'modalRepoRoute':'https://github.com/ignfer/portfolio.github.io'
     },{
+      'id':'1',
       'imagepath':'./assets/images/budggy.png',
+      'modalImagePath':['./assets/images/budggy.png','./assets/images/budggy.png','./assets/images/budggy.png'],
       'title':'Java Fullstack distributed app',
       'description':'Consisting of a Java Backend, a SOAP API and a web page created using JSP and Servlets, the goal was to create a webpage able to communicate tourist and activities on Uruguay.',
       'badges':[
@@ -36,7 +40,9 @@ const experienceJSON = {
       ],
       'modalRepoRoute':'https://github.com/ignfer/portfolio.github.io',
     },{
+      'id':'2',
       'imagepath':'./assets/images/budggy.png',
+      'modalImagePath':['./assets/images/budggy.png','./assets/images/budggy.png','./assets/images/budggy.png'],
       'title':'Web Spending Tracker',
       'description':'Buddgy is a personal project wich I\'ve created in order to know in which topics or areas I was spending my money.',
       'badges':[

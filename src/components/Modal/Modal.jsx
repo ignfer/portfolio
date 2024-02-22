@@ -5,6 +5,13 @@ export default function Modal({experience,modalId,closeModal}){
     console.log(route);
     window.open(route, '_blank', 'noopener,noreferrer');
   }
+
+  function openPopUp(popupId){
+    console.log(popupId);
+    const ele = document.querySelector('#' + popupId);
+    ele.showModal();
+  }
+
   return(
     <>
       <dialog className='modal' id={modalId}>
@@ -29,9 +36,17 @@ export default function Modal({experience,modalId,closeModal}){
         
         <div className='modal-banner-wrapper'>
           <div className='modal-banner'>
-            <img src={experience.imagepath}></img>
-            <img src={experience.imagepath}></img>
-            <img src={experience.imagepath}></img>
+            {experience.modalImagePath.map((image,index) => {
+              
+              let popupId = 'popup' + experience.id + index;
+              
+              return(
+                <>
+                  <dialog className='modal-popup-image' id={popupId}><img src={image}></img></dialog>      
+                  <img key={index} src={image} onClick={() => openPopUp(popupId)}></img>
+                </>
+              )
+            })}
           </div>
         </div>
       </dialog>

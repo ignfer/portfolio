@@ -120,3 +120,19 @@
 .modal-banner > img {
   width: calc(50% - 0.5rem);
 }
+
+.modal-popup-image{
+  border-style: none;
+  background-color: unset;
+
+  margin: auto;
+}
+
+.modal-popup-image::backdrop{
+  background:var(--dark-color-0);
+  opacity: 0.7;
+}
+
+.modal-popup-image > img{
+  max-height: 95vh;
+}
