@@ -3,7 +3,21 @@ const experienceJSON = {
     {
       'id':'0',
       'imagepath':'./assets/images/portfolio.png',
-      'modalImagePath':['./assets/images/portfolio.png','./assets/images/portfolio-1.png','./assets/images/portfolio-2.png'],
+      'cards':[
+        {
+          'path' : './assets/images/buddgy.png',
+          'description' : 'Site overview'
+        },{
+          'path' : './assets/images/buddgy-demo-01.gif',
+          'description' : 'Creating a new expense card'
+        },{
+          'path' : './assets/images/buddgy-demo-02.gif',
+          'description' : 'Deleting an expense card'
+        },{
+          'path' : './assets/images/buddgy-demo-03.gif',
+          'description' : 'Updating the amount of money'
+        }
+      ],
       'title':'Personal Web Portfolio',
       'description':'The site you are reading right now!',
       'badges':[
@@ -23,8 +37,22 @@ const experienceJSON = {
       'modalRepoRoute':'https://github.com/ignfer/portfolio.github.io'
     },{
       'id':'1',
-      'imagepath':'./assets/images/budggy.png',
-      'modalImagePath':['./assets/images/budggy.png','./assets/images/budggy.png','./assets/images/budggy.png'],
+      'imagepath':'./assets/images/buddgy.png',
+      'cards':[
+        {
+          'path' : './assets/images/buddgy.png',
+          'description' : 'Site overview'
+        },{
+          'path' : './assets/images/buddgy-demo-01.gif',
+          'description' : 'Creating a new expense card'
+        },{
+          'path' : './assets/images/buddgy-demo-02.gif',
+          'description' : 'Deleting an expense card'
+        },{
+          'path' : './assets/images/buddgy-demo-03.gif',
+          'description' : 'Updating the amount of money'
+        }
+      ],
       'title':'Java Fullstack distributed app',
       'description':'Consisting of a Java Backend, a SOAP API and a web page created using JSP and Servlets, the goal was to create a webpage able to communicate tourist and activities on Uruguay.',
       'badges':[
@@ -42,7 +70,21 @@ const experienceJSON = {
     },{
       'id':'2',
       'imagepath':'./assets/images/buddgy.png',
-      'modalImagePath':['./assets/images/buddgy.png','./assets/images/buddgy-demo-01.gif','./assets/images/buddgy-demo-02.gif','./assets/images/buddgy-demo-03.gif'],
+      'cards':[
+        {
+          'path' : './assets/images/buddgy.png',
+          'description' : 'Site overview'
+        },{
+          'path' : './assets/images/buddgy-demo-01.gif',
+          'description' : 'Creating a new expense card'
+        },{
+          'path' : './assets/images/buddgy-demo-02.gif',
+          'description' : 'Deleting an expense card'
+        },{
+          'path' : './assets/images/buddgy-demo-03.gif',
+          'description' : 'Updating the amount of money'
+        }
+      ],
       'title':'Web Spending Tracker',
       'description':'A web project to keep track of your expenses in an organized and easily accessible cross platform way.',
       'badges':[

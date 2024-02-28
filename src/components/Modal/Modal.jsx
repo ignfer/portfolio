@@ -33,16 +33,19 @@ export default function Modal({experience,modalId,closeModal}){
           </div>
         </div>
         
-        <div className='modal-banner-wrapper'>
-          <div className='modal-banner'>
-            {experience.modalImagePath.map((image,index) => {
+        <div className='modal-images-wrapper'>
+          <div className='modal-images'>
+            {experience.cards.map((card,index) => {
               
               let popupId = 'popup' + experience.id + index;
               
               return(
                 <>
-                  <dialog className='modal-popup-image' id={popupId}><img src={image}></img></dialog>      
-                  <img key={index} src={image} onClick={() => openPopUp(popupId)}></img>
+                  <dialog className='modal-popup-image' id={popupId}><img src={card.path}></img></dialog>      
+                  <div className='modal-card'>
+                    <img key={index} src={card.path} onClick={() => openPopUp(popupId)}></img>
+                    <p className='modal-card-description'> {card.description}</p>
+                  </div>
                 </>
               )
             })}

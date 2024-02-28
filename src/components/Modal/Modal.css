@@ -88,8 +88,10 @@
   color: var(--dark-color-0);
 }
 
+/* styles of a wrapper and a container, the wrapper is needed to horizontaly center the modal-images given the restriction
+that I cant use display flex on the modal */
 
-.modal-banner-wrapper{
+.modal-images-wrapper{
   width: 100%;
 
   display: flex;
@@ -98,7 +100,7 @@
   align-items: center;
 }
 
-.modal-banner{
+.modal-images{
   padding: 1rem;
   width: 90%;
   margin: 1rem 0 1rem 0;
@@ -116,10 +118,35 @@
   border-width: 1px;
   border-color: var(--dark-color-1);
 }
+  
+/* styles of each card containing an image and a description*/
 
-.modal-banner > img {
+.modal-card{
   width: calc(50% - 0.5rem);
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--dark-color-1);
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
 }
+
+.modal-card-description{
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  text-align: left;
+
+  border-top: solid;
+  border-width: 1px;
+  border-color: var(--dark-color-1);
+}
+
+.modal-card > img {
+  width: 100%;
+}
+
+/* styles of the popup image when clicking a modal card */
 
 .modal-popup-image{
   border-style: none;
