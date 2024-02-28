@@ -7,9 +7,8 @@ export default function Modal({experience,modalId,closeModal}){
   }
 
   function openPopUp(popupId){
-    console.log(popupId);
-    const ele = document.querySelector('#' + popupId);
-    ele.showModal();
+    const element = document.querySelector('#' + popupId);
+    element.showModal();
   }
 
   return(
@@ -28,7 +27,7 @@ export default function Modal({experience,modalId,closeModal}){
           <div className='modal-buttons-wrapper'>
             <button className='badge' onClick={() => redirect(experience.modalRepoRoute)}>Check the code</button>
             
-            {experience.modalProjectRoute ? (<button className='badge' onClick={() => redirect()}>Visit project</button>) : (null)}
+            {experience.modalProjectRoute ? (<button className='badge' onClick={() => {redirect(experience.modalProjectRoute)}}>Visit project</button>) : (null)}
             
             <button className='badge' onClick={closeModal}>Close</button>
           </div>
