@@ -74,6 +74,10 @@
   text-align: left;
 }
 
+.modal-description-wrapper > ul > li{
+  padding: 0.25rem;
+}
+
 .modal-buttons-wrapper{
   display: flex;
   gap: 1rem;

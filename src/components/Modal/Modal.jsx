@@ -30,9 +30,11 @@ export default function Modal({experience,modalId,closeModal}){
           <p>Developed Role: <strong>{experience.modalRole}</strong></p>
           
           <div className='modal-description-wrapper'>
-            {experience.modalDescription.map((paragraph,index) => {
-              return <p key={index}>{paragraph}</p>
-            })}
+            <ul>
+              {experience.modalDescription.map((paragraph,index) => {
+                return <li key={index}>{paragraph}</li>
+              })}
+            </ul>
           </div>
 
           <div className='modal-images'>
