@@ -5,17 +5,14 @@ const experienceJSON = {
       'imagepath':'./assets/images/portfolio.png',
       'cards':[
         {
-          'path' : './assets/images/buddgy.png',
-          'description' : 'Site overview'
+          'path' : './assets/images/portfolio-01.png',
+          'description' : 'Figma draft'
         },{
-          'path' : './assets/images/buddgy-demo-01.gif',
-          'description' : 'Creating a new expense card'
+          'path' : './assets/images/portfolio-02.png',
+          'description' : 'First approach to the experience tab'
         },{
-          'path' : './assets/images/buddgy-demo-02.gif',
-          'description' : 'Deleting an expense card'
-        },{
-          'path' : './assets/images/buddgy-demo-03.gif',
-          'description' : 'Updating the amount of money'
+          'path' : './assets/images/portfolio-03.png',
+          'description' : 'Figma draft from a section which contains my prefered stack (work in progress)'
         }
       ],
       'title':'Personal Web Portfolio',
@@ -58,10 +55,10 @@ const experienceJSON = {
       'modalRole':'Java FullStack Developer',
       'modalDescription':[
         'Consisting of a Java Backend, a SOAP API and a web page which consume the SOAP API, the goal was to be able to communicate tourist and activities on Uruguay. This project was the perfect opportunity for me to explore the different areas of the inmense Java ecosystem. It was a complete development, we started from zero, designing classes, heritances and restrictions given our problem, to later on implement those designs to create a FullStack distributed solution.',
-        'The objective was to create two main pieces of software, one focused to the administrators of the page, which was able to retrieve and store data into a MySQL database, making all the CRUD operations easier to do. The other part was a webpage which will display the data managed by the administrators, there was of course a need to show the current data stored on the database on the webpage at all moments.',
-        'In the progress we created an organized backend able to handle the requirements, with different patterns such as factory or MVC and I have been the main responsible for the front end design, creating a simple but efficient UI using bootstrap and working with server side rendereing.',
-        'Throughout the process I have gained experience on various topics such as: ORM\'s to persist or retrieve the necessary data, http session handling to show certain data to certain users, server side rendering using JSP, creation of unit test, creation of SOAP API, styling and fast-paced prototyping using bootstrap, implementation and deploy of a distributed app.',
-        'As the technologies that I have worked with during the project,Java Swing to create the UI for the administrator\'s desktop version, JSP for creating the html templates the end-user see, EclipseLink to easily work whit the persistency on the database, Jacoco for test coverage and unit tests, Tomcat as a webserver to work with our webpage, MySQL to persist our data, among others.'
+        'The objective was to create two main pieces of software, one focused to the administrators of the page, which was able to retrieve and store data into a MySQL database, making all the CRUD operations easier to do. The other part was a webpage which will display the data managed by the administrators; there was of course a need to show the current data stored on the database on the webpage at all moments.',
+        'In the progress we created an organized backend able to handle the requirements, with different patterns such as factory or MVC and I have been the main responsible for the front end design, creating a simple but efficient UI using bootstrap and working with server side rendering.',
+        'Throughout the process I have gained experience on various topics such as: ORM\'s to persist or retrieve the necessary data, http session handling to show certain data to certain users, server side rendering using JSP, creation of unit test, creation of SOAP API, fast-paced prototyping and styling using bootstrap, implementation and deploy of a distributed app.',
+        'As in the technologies that I have worked with during the project,Java Swing to create the UI for the administrator\'s desktop version, JSP for creating the html templates the end-user see, EclipseLink to easily work whit the persistency on the database, Jacoco for test coverage and unit tests, Tomcat as a webserver to work with our webpage, MySQL to persist our data, among others.'
       ],
       'modalRepoRoute':'https://github.com/Lucianorosalasiu/LabProgramacionAplicaciones',
     },{
