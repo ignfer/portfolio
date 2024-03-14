@@ -35,11 +35,6 @@
   width: 100%;
   cursor: pointer;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap:0.5rem;
-
   color: var(--dark-color-2);
   transition: all 0.2s;
 }
@@ -50,6 +45,13 @@
 
 .contact-item > a{
   transition: all 0.2s;
+  color: var(--dark-color-2);
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:0.5rem;
 }
 
 .contact-item:hover > a{
@@ -80,7 +82,7 @@ contact container, making the images always visible and accesible */
     flex-direction: row;
   }
   
-  .contact-item > p{
+  .contact-item > a > p{
     display: none;
   }
 }
