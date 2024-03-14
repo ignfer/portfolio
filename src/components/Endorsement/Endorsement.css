@@ -12,11 +12,6 @@
 
 @media (max-width: 768px) {
   .endorsement{
-    box-sizing: border-box;
-    margin: 1rem;
-    
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--dark-color-1);
+    overflow: visible;
   }
 }

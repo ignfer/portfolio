@@ -18,5 +18,7 @@ main{
 @media (max-width: 768px) {
   main{
     width: 100%;
+    max-height: unset;
+    height: unset;
   }
 }

@@ -17,6 +17,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .experience-card{
+   max-width: none;
+  }
+}
+
 .experience-card:hover, .experience-card:hover > * {
   border-color: var(--dark-color-5);
   color: var(--dark-color-4);
