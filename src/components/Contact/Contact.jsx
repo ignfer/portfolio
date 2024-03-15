@@ -7,7 +7,7 @@ export default function Contact(){
 
   const githubUrl = 'https://github.com/ignfer';
   const linkedinUrl = 'https://linkedin.com/in/ignaciofernández';
-  const resumeUrl = './documents/CV_IgnacioFernandez_esp_v01.pdf';
+  const resumeUrl = './documents/Resume_IgnacioFernandez_eng.pdf';
   
   return(
     <>
