@@ -12,7 +12,7 @@
 
 @media (max-width: 768px) {
   .about-me-section{
-    /* height: 70%; */
-    overflow: unset;
+    overflow: visible;
+    height: unset;
   }
 } 
