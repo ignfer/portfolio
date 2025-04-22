@@ -1,0 +1,140 @@
+.markdown-container {
+    margin-top: 8px;
+    padding: 16px;
+    border-style: solid;
+    border-width: var(--border-default-width, 1px);
+    border-color: var(--dark-color-1, #333);
+    overflow-x: auto;
+    border-radius: 4px;
+}
+
+.markdown-container * {
+    text-align: left;
+    line-height: 1.8;
+}
+
+.markdown-container h1,
+.markdown-container h2,
+.markdown-container h3,
+.markdown-container h4,
+.markdown-container h5,
+.markdown-container h6 {
+    margin: 1.5em 0 0.5em;
+    font-weight: 600;
+}
+
+.markdown-container h1 {
+    font-size: 1.75rem;
+}
+
+.markdown-container h2 {
+    font-size: 1.5rem;
+}
+
+.markdown-container h3 {
+    font-size: 1.25rem;
+}
+
+.markdown-container h4,
+.markdown-container h5,
+.markdown-container h6 {
+    font-size: 1rem;
+}
+
+.markdown-container p {
+    margin-bottom: 1em;
+}
+
+.markdown-container ul,
+.markdown-container ol {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+.markdown-container li {
+    margin-bottom: 0.5em;
+}
+
+.markdown-container input[type="checkbox"] {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.markdown-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.markdown-container a:hover {
+    text-decoration: underline;
+}
+
+.markdown-container img {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.markdown-container table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.markdown-container th,
+.markdown-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.markdown-container th {
+    font-weight: 600;
+}
+
+.markdown-container td {
+    vertical-align: top;
+}
+
+.markdown-container code {
+    background-color: var(--dark-color-1);
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Fira Code', 'Consolas', monospace;
+    font-size: 0.9em;
+}
+
+.markdown-container pre {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 1em;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: 'Fira Code', 'Consolas', monospace;
+    margin: 1em 0;
+}
+
+.markdown-container pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.markdown-container del {
+    color: #666;
+}
+
+.markdown-container blockquote {
+    border-left: 4px solid #007bff;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    color: #555;
+}
+
+
+.markdown-container hr {
+    border-color: var(--dark-color-1);
+    border-style: solid;
+    margin: 1.5em 0;
+}

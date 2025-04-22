@@ -1,19 +1,19 @@
-*{
-  margin:0;
-  scrollbar-width: thin;
+* {
+    margin: 0;
+    scrollbar-width: none;
 }
 
 #root {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
 
-  background-color: var(--dark-color-0);
+    background-color: var(--dark-color-0);
 }
 
-html,body{
-  height: 100%;
+html, body {
+    height: 100%;
 }
