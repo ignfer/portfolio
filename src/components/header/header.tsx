@@ -1,15 +1,15 @@
-import AboutMe from '../about-me/about-me.tsx';
-import Info from '../Info/Info.jsx';
+import './header.css';
 
-import './Header.css'
+import React from 'react';
+
+import AboutMe from '../about-me/about-me';
+import Info from '../info/info.js';
 
 export default function Header() {
-    return (
-        <>
-            <header>
-                <Info/>
-                <AboutMe/>
-            </header>
-        </>
-    );
+  return (
+    <header>
+      <Info/>
+      <AboutMe/>
+    </header>
+  );
 }

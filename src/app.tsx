@@ -1,15 +1,15 @@
-import './App.css'
+import './app.css';
 
-import Header from './components/Header/Header.tsx'
-import Main from './components/Main/Main.jsx'
+import Header from './components/header/header.tsx';
+import Main from './components/main/main.tsx';
 
 function App() {
-    return (
-        <>
-            <Header/>
-            <Main/>
-        </>
-    )
+  return (
+    <>
+      <Header/>
+      <Main/>
+    </>
+  );
 }
 
-export default App
+export default App;
