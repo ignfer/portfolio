@@ -1,7 +1,5 @@
 import './experience-card.css';
 
-import {useState} from 'react';
-
 import Badge from '../badge/badge.tsx';
 import Modal from '../modal/modal.tsx';
 
@@ -25,9 +23,13 @@ export default function ExperienceCard({index, experience}) {
 
   return (
     <>
-      <Modal experience={experience} closeModal={closeModal} modalId={modalId}></Modal>
-
-      <div className='experience-card' onClick={openModal}>
+      <Modal
+        experience={experience}
+        closeModal={closeModal}
+        modalId={modalId}
+      />
+      <div className='experience-card'
+           onClick={openModal}>
         <h2 className='experience-card-title'>{experience.title}</h2>
 
         <div className='experience-card-preview'>
@@ -36,7 +38,8 @@ export default function ExperienceCard({index, experience}) {
 
         <div className='experience-card-badges'>
           {experience.badges.map((badge, index) => {
-            return (<Badge key={index} content={badge}/>);
+            return (<Badge key={index}
+                           content={badge}/>);
           })}
         </div>
 

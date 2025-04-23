@@ -2,37 +2,29 @@ const experienceJSON = {
     'experience': [
         {
             'id': '0',
-            'imagepath': './assets/images/portfolio.png',
-            'cards': [
-                {
-                    'path': './assets/images/portfolio-01.png',
-                    'description': 'Figma draft'
-                }, {
-                    'path': './assets/images/portfolio-02.png',
-                    'description': 'First approach to the experience tab'
-                }, {
-                    'path': './assets/images/portfolio-03.png',
-                    'description': 'Figma draft from a section which contains my prefered stack (work in progress)'
-                }
-            ],
-            'title': 'Personal Web Portfolio',
-            'description': 'The site you are reading right now!',
+            'imagepath': './assets/images/dashboard-preview.png',
+            'cards': [],
+            'title': 'Fullstack developer @ Cargonet (April 2024 - Present)',
+            'description': 'My current job as a software engineer',
             'badges': [
-                'Frontend',
                 'React',
-                'Yarn',
-                'Vite',
-                'GitHub Pages'
+                'Figma',
+                'Springboot',
+                'Java',
+                'Postgres',
+                'LLMs'
             ],
-            'modalRole': 'React Frontend Developer - UI Designer',
+            'modalRole': 'Fullstack sofware engineer',
             'modalDescription': [
-                'Aiming to go beyond a traditional resume or portfolio, the main goal was to establish a digital hub which provides a centralized space where interested people like recruiters or colleagues, can explore my previous works, educational background, and recommendations from professionals I have collaborated with. So, I felt that the idea was a valuable project to settle and display my learning and control over React. With this project I gained hands-on experience working with conditional rendering, handling and creating valid JSON, creating react components and various react hooks',
-                'The site creates a connection point in which you could see a more meaningful description or examples of my experience, given that we live in a fast-pace world I preferred a more dashboard approach, making all the info easily accesible and with no long transitions or scroll animations.',
-                'The project is currently deployed on GitHub pages and was created with the Vite framework, It took me 6 months of developing on my free time after work or after college for the 0.0.1 version to be up and running and during those 6 months I came up with a Figma design and started the implementation from scratch and using vanilla CSS for the styles and the responsiveness. I improved my CSS skills creating a very modern and serious design with a consistent style and my own personal touch on every detail.',
-                'In the future I am planning on adding a mark down component to make my life easier when adding new info, also I am working on a blog and a tech stack section, both will add to the main goal of creating a place to present my whole journey as a developer. Additionally I would like to introduce a Spanish translation and a light theme option relying on the react useContext hook.'
+                'Well, for obvious reasons I am not allowed to show much about this job given NDAs, despite that, I have no problem in walking you through my proccess at Cargonet',
+                'My first steps where developing new features for mobile with React native, these features must replicate the behavior of existing ones in the web version, this allowed me to grasp a better understanding of  how did react work, the codebase, and the complex business logic of a freight-forwarding agent.',
+                'After a few weeks focusing mainly on mobile development, I started developing new features and fixing bugs in the web version, in that moment I get full access to a bigger and older codebase, I was given a lot of freedom to improve and propose new ways of handling the frontend, and that was what I did.',
+                'I started to add what I have already knew, CSS variables, a consistent design system, things that I later on use as leverage to create interactive prototypes in Figma, which allowed us as a small team to get early feedback from the users and iterate faster on ideas.',
+                'My first big project was to develop a whole working prototype of a dashboard, the idea was to show as much interaction as possible, I started the project having no idea what auto layout was in figma, so there I built a very good base in prototyping, after months of iterations and changes, the project was approved and I started taking care of the frontend-part of the development, creating useful charts and data representation.',
+                'When that part ended, I already had more of 8 months of experience working every day with React and almost every part of the frontend development was now passing by my desk, from that point on, I have been just getting better at creating reusable components, creating simple and elegant code, together with clever solutions.'
             ],
-            'modalRepoRoute': 'https://github.com/ignfer/portfolio.github.io'
-        }, {
+        },
+        {
             'id': '1',
             'imagepath': './assets/images/buddgy.png',
             'cards': [
@@ -71,33 +63,36 @@ const experienceJSON = {
         },
         {
             'id': '2',
-            'imagepath': './assets/images/java.png',
+            'imagepath': './assets/images/portfolio.png',
             'cards': [
                 {
-                    'path': './assets/images/java.png',
-                    'description': 'Site overview'
+                    'path': './assets/images/portfolio-01.png',
+                    'description': 'Figma draft'
                 }, {
-                    'path': './assets/images/java-01.png',
-                    'description': 'Desktop version for admins'
+                    'path': './assets/images/portfolio-02.png',
+                    'description': 'First approach to the experience tab'
+                }, {
+                    'path': './assets/images/portfolio-03.png',
+                    'description': 'Figma draft from a section which contains my prefered stack (work in progress)'
                 }
             ],
-            'title': 'Java FullStack distributed app',
-            'description': 'A distributed Java aplication to showcase points of interest for tourist on the region of Uruguay',
+            'title': 'Personal Web Portfolio',
+            'description': 'The site you are reading right now!',
             'badges': [
-                'FullStack',
-                'Java',
-                'ORM',
-                'MySQL'
+                'Frontend',
+                'React',
+                'Yarn',
+                'Vite',
+                'GitHub Pages'
             ],
-            'modalRole': 'Java FullStack Developer',
+            'modalRole': 'React Frontend Developer - UI Designer',
             'modalDescription': [
-                'Consisting of a Java Backend, a SOAP API and a web page which consume the SOAP API, the goal was to be able to communicate tourist and activities on Uruguay. This project was the perfect opportunity for me to explore the different areas of the inmense Java ecosystem. It was a complete development, we started from zero, designing classes, heritances and restrictions given our problem, to later on implement those designs to create a FullStack distributed solution.',
-                'The objective was to create two main pieces of software, one focused to the administrators of the page, which was able to retrieve and store data into a MySQL database, making all the CRUD operations easier to do. The other part was a webpage which will display the data managed by the administrators; there was of course a need to show the current data stored on the database on the webpage at all moments.',
-                'In the progress we created an organized backend able to handle the requirements, with different patterns such as factory or MVC and I have been the main responsible for the front end design, creating a simple but efficient UI using bootstrap and working with server side rendering.',
-                'Throughout the process I have gained experience on various topics such as: ORM\'s to persist or retrieve the necessary data, http session handling to show certain data to certain users, server side rendering using JSP, creation of unit test, creation of SOAP API, fast-paced prototyping and styling using bootstrap, implementation and deploy of a distributed app.',
-                'As in the technologies that I have worked with during the project,Java Swing to create the UI for the administrator\'s desktop version, JSP for creating the html templates the end-user see, EclipseLink to easily work whit the persistency on the database, Jacoco for test coverage and unit tests, Tomcat as a webserver to work with our webpage, MySQL to persist our data, among others.'
+                'Aiming to go beyond a traditional resume or portfolio, the main goal was to establish a digital hub which provides a centralized space where interested people like recruiters or colleagues, can explore my previous works, educational background, and recommendations from professionals I have collaborated with. So, I felt that the idea was a valuable project to settle and display my learning and control over React. With this project I gained hands-on experience working with conditional rendering, handling and creating valid JSON, creating react components and various react hooks',
+                'The site creates a connection point in which you could see a more meaningful description or examples of my experience, given that we live in a fast-pace world I preferred a more dashboard approach, making all the info easily accesible and with no long transitions or scroll animations.',
+                'The project is currently deployed on GitHub pages and was created with the Vite framework, It took me 6 months of developing on my free time after work or after college for the 0.0.1 version to be up and running and during those 6 months I came up with a Figma design and started the implementation from scratch and using vanilla CSS for the styles and the responsiveness. I improved my CSS skills creating a very modern and serious design with a consistent style and my own personal touch on every detail.',
+                'In the future I am planning on adding a mark down component to make my life easier when adding new info, also I am working on a blog and a tech stack section, both will add to the main goal of creating a place to present my whole journey as a developer. Additionally I would like to introduce a Spanish translation and a light theme option relying on the react useContext hook.'
             ],
-            'modalRepoRoute': 'https://github.com/Lucianorosalasiu/LabProgramacionAplicaciones',
+            'modalRepoRoute': 'https://github.com/ignfer/portfolio.github.io'
         }
     ]
 };

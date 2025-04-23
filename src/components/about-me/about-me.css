@@ -1,18 +1,16 @@
-.about-me-section{
-  width: 100%;
-  height: 60%;
-  
-  display:flex;
-  justify-content: center;
-  align-items: start;
-  flex-wrap: wrap;
-  
-  overflow: scroll;
+.about-me-section {
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
-  .about-me-section{
-    overflow: visible;
-    height: unset;
-  }
+    .about-me-section {
+        overflow: visible;
+        height: unset;
+    }
 } 

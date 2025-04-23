@@ -1,54 +1,54 @@
-.reference-card{
-  border-style: solid;
-  border-width: 1px;
-  border-color: var(--dark-color-1);
+.reference-card {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--dark-color-1);
 
-  margin: 1rem 0 1rem 0;
-  box-sizing: border-box;
+    margin: 1rem 0 1rem 0;
+    box-sizing: border-box;
 
-  transition: all 0.2s;
+    transition: all 0.2s;
 }
 
-.reference-card:hover{
-  border-color: var(--dark-color-5);
+.reference-card:hover {
+    border-color: var(--dark-color-5);
 }
 
-.reference-card:hover > .reference-card-title{
-  color:var(--dark-color-4);
+.reference-card:hover > .reference-card-title {
+    color: var(--dark-color-4);
 }
 
-.reference-card:hover > .reference-card-title > a{
-  filter: brightness(200%);
-  transform: scale(120%);
+.reference-card:hover > .reference-card-title > a {
+    filter: brightness(200%);
+    transform: scale(120%);
 }
 
-.reference-card > h3{
-  color:var(--dark-color-4);
+.reference-card > h3 {
+    color: var(--dark-color-4);
 }
 
-.reference-card-title{
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.reference-card-title {
+    padding: 0.5rem 1rem 0.5rem 1rem;
 
-  border-bottom-style: solid;
-  border-width: 1px;
-  border-color: var(--dark-color-1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
-  transition: all 0.2s;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--dark-color-1);
+
+    transition: all 0.2s;
 }
 
-.reference-card-title > a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.reference-card-title > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  transition: all 0.2s;
+    transition: all 0.2s;
 }
 
-.reference-card-description{
-  padding: 1rem;
+.reference-card-description {
+    padding: 1rem;
 }

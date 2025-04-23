@@ -12,8 +12,12 @@ export default function Endorsement() {
         <p>Recommendations from experienced professionals on the IT field who have collaborated with me on past or ongoing projects.</p>
 
         {endorsementJSON.people.map((person, index) => {
-          return <ReferenceCard key={index}
-person={person}/>;
+          return (
+            <ReferenceCard
+              key={index}
+              person={person}
+            />
+          );
         })}
       </div>
     </>

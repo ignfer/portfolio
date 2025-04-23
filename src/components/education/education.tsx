@@ -1,4 +1,4 @@
-import './Education.css';
+import './education.css';
 
 import EducationCard from '../education-card/education-card';
 /* import the JSON which contains the text to be rendered */
@@ -15,7 +15,7 @@ export default function Education() {
         </p>
         {educationJSON.course.map((course, index) => {
           return (<EducationCard key={index}
-course={course}/>);
+                                 course={course}/>);
         })}
       </div>
     </>
