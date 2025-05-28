@@ -7,15 +7,16 @@ import '@mantine/core/styles.css';
 import '@mantine/spotlight/styles.css';
 
 import {MantineProvider} from '@mantine/core';
+import {BrowserRouter} from "react-router";
 
 function App() {
   return (
-    <Router>
-      <MantineProvider>
+    <MantineProvider>
+      <BrowserRouter>
         <Header/>
         <Main/>
-      </MantineProvider>
-    </Router>
+      </BrowserRouter>
+    </MantineProvider>
   );
 }
 

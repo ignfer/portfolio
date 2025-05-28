@@ -27,7 +27,7 @@ export default function Main() {
       component: <Blog/>
     }
   };
-  const [selectedTab, setSelectedTab] = useState(tabs.BLOG.label);
+  const [selectedTab, setSelectedTab] = useState(tabs.EXPERIENCE.label);
 
   return (
     <>
