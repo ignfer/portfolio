@@ -8,6 +8,7 @@ import '@mantine/spotlight/styles.css';
 
 import {MantineProvider} from '@mantine/core';
 import {BrowserRouter} from "react-router";
+import NavigationBar from "./pages/navigation-bar.tsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <BrowserRouter>
         <Header/>
         <Main/>
+        {/*<NavigationBar/>*/}
       </BrowserRouter>
     </MantineProvider>
   );
