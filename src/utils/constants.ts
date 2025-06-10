@@ -1,15 +1,19 @@
-export const version_number = 'v0.0.3';
 export const ROUTES = [
   {
-    label:"Home"
+    label:"Home",
+    path: "/home"
   },
   {
-    label:"Blog"
+    label:"Blog",
+    path: "/blog"
   },
   {
-    label:"Projects"
+    label:"Projects",
+    path: "/projects"
   },
   {
     label:"Education",
+    path: "/education"
   }
 ]
+export const VERSION_NUMBER = 'v0.0.4';

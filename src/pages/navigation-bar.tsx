@@ -1,15 +1,17 @@
-import {Flex, FloatingIndicator, Paper, Text, UnstyledButton} from "@mantine/core";
+import {ActionIcon, Burger, Button, Center, Flex, FloatingIndicator, Paper, Text, UnstyledButton, useMantineColorScheme} from "@mantine/core";
 import { useState } from 'react';
 import {useNavigate} from "react-router";
 import {ROUTES} from "../utils/constants.ts";
-import logo from "../assets/if-logo-svg.svg";
+import logoDarkTheme from "../assets/if-logo-svg-dark-theme.svg";
+import logoLightTheme from "../assets/if-logo-svg-light-theme.svg";
 
-export default function NavigationBar(){
+export default function NavigationBar({opened, toggle}){
+  const {colorScheme, toggleColorScheme} = useMantineColorScheme();
+  const navigate = useNavigate();
+
   const [rootRef, setRootRef] = useState<HTMLDivElement | null>(null);
   const [controlsRefs, setControlsRefs] = useState<Record<string, HTMLButtonElement | null>>({});
   const [active, setActive] = useState(ROUTES[0].label);
-
-  const navigate = useNavigate();
 
   const setControlRef = (index: number) => (node: HTMLButtonElement) => {
     controlsRefs[index] = node;
@@ -23,7 +25,7 @@ export default function NavigationBar(){
       onClick={
         () => {
           setActive(item.label)
-          navigate(item.label);
+          navigate(item.path);
         }
       }
       className={'z-1'}
@@ -41,22 +43,31 @@ export default function NavigationBar(){
   ));
 
   return (
-    <Flex gap={16} m={16}>
+    <Flex
+      gap={16}
+      w={'100%'}
+      align={'center'}
+      justify={'center'}
+      h={'100%'}
+    >
+      <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
       <Paper
         withBorder
-        bg={'transparent'}
-        h={'fit-content'}
         radius={'lg'}
         p={16}
+        className={'bg-linear-to-b from-[var(--mantine-color-dark-light)] to-[var(--surface-0)]'}
+        shadow={'xl'}
+        h={'100%'}
       >
-        <img src={logo} alt="Logo"/>
+        <img src={colorScheme === 'dark' ? logoDarkTheme : logoLightTheme } alt="Logo" height={'100%'}/>
       </Paper>
       <Paper
         withBorder
         h={'fit-content'}
         radius={'lg'}
         ref={setRootRef}
-        className={'bg-linear-to-b from-[var(--mantine-color-dark-light)] to-[var(--mantine-color-dimmed)]'}
+        className={'bg-linear-to-b from-[var(--mantine-color-dark-light)] to-[var(--surface-0)]'}
+        shadow={'xl'}
       >
         <Flex
           gap={64}
@@ -69,10 +80,20 @@ export default function NavigationBar(){
             <FloatingIndicator
               target={controlsRefs[active]}
               parent={rootRef}
-              className={'rounded-lg bg-white border-solid border-1'}
+              className={'rounded-lg bg-[var(--mantine-color-bright)] border-solid border-1'}
               p={16}
             />
         </Flex>
+      </Paper>
+      <Paper
+        withBorder
+        h={'100%'}
+        radius={'lg'}
+        className={'bg-linear-to-b from-[var(--mantine-color-dark-light)] to-[var(--surface-0)]'}
+        onClick={() => toggleColorScheme()}
+        shadow={'xl'}
+      >
+        <UnstyledButton>Change theme </UnstyledButton>
       </Paper>
     </Flex>
   );

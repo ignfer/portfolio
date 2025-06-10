@@ -28,6 +28,18 @@
 
 
   --border-default-width:2px;
+
+
+}
+
+[data-theme = "dark"] {
+  --surface-0: #162521;
+  --surface-5: #F2F7F6;
+}
+
+[data-theme = "light"] {
+  --surface-0: #F2F7F6;
+  --surface-5: #162521;
 }
 
 /* Fade in tabs */
