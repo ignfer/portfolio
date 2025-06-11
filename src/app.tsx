@@ -6,10 +6,10 @@ import '@mantine/spotlight/styles.css';
 import {AppShell, Burger, Combobox, Flex, Group, MantineProvider, UnstyledButton} from '@mantine/core';
 import {BrowserRouter, Navigate, Route, Routes} from "react-router";
 import NavigationBar from "./pages/navigation-bar.tsx";
-import Home from "./pages/hero/home.tsx";
-import Blog from "./pages/blog.tsx";
-import Projects from "./pages/projects.tsx";
-import Education from "./pages/education.tsx";
+import Home from "@pages/hero/home.tsx";
+import Blog from "@pages/blog.tsx";
+import Projects from "@pages/projects.tsx";
+import Education from "@pages/education.tsx";
 import {useDisclosure} from "@mantine/hooks";
 import VersionNumber from "./components/version-number.tsx";
 
