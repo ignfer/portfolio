@@ -1,4 +1,4 @@
-import {ActionIcon, Burger, Button, Center, Flex, FloatingIndicator, Paper, Text, UnstyledButton, useMantineColorScheme} from "@mantine/core";
+import {ActionIcon, Burger, Button, Center, Flex, FloatingIndicator, Grid, Group, Kbd, Paper, SimpleGrid, Text, UnstyledButton, useMantineColorScheme} from "@mantine/core";
 import { useState } from 'react';
 import {useNavigate} from "react-router";
 import {ROUTES} from "../utils/constants.ts";
@@ -30,8 +30,8 @@ export default function NavigationBar({opened, toggle}){
       }
       className={'z-1'}
       p={8}
-      pl={64}
-      pr={64}
+      pl={32}
+      pr={32}
     >
       <Text
         fw={600}
@@ -44,35 +44,44 @@ export default function NavigationBar({opened, toggle}){
 
   return (
     <Flex
-      gap={16}
       w={'100%'}
-      align={'center'}
-      justify={'center'}
       h={'100%'}
+      justify={'center'}
     >
-      <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
+    <Grid
+      w={'calc(100vw - 10rem)'}
+      maw={'75rem'}
+      h={'100%'}
+      gap={16}
+    >
+      {/*<Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />*/}
+      <Grid.Col span={2}>
       <Paper
+        w={'100%'}
+        h={'100%'}
         withBorder
         radius={'lg'}
         p={16}
         className={'bg-linear-to-b from-[var(--mantine-color-dark-light)] to-[var(--surface-0)]'}
         shadow={'xl'}
-        h={'100%'}
       >
-        <img src={colorScheme === 'dark' ? logoDarkTheme : logoLightTheme } alt="Logo" height={'100%'}/>
+        {/*<img src={colorScheme === 'dark' ? logoDarkTheme : logoLightTheme } alt="Logo" height={'100%'}/>*/}
       </Paper>
+      </Grid.Col>
+      <Grid.Col span={8}>
       <Paper
-        withBorder
+        w={'100%'}
         h={'fit-content'}
+        withBorder
         radius={'lg'}
         ref={setRootRef}
         className={'bg-linear-to-b from-[var(--mantine-color-dark-light)] to-[var(--surface-0)]'}
         shadow={'xl'}
       >
-        <Flex
-          gap={64}
+        <Group
+          gap={32}
           p={16}
-          justify={'center'}
+          justify={'space-between'}
           align={'center'}
           pos={'relative'}
         >
@@ -81,13 +90,15 @@ export default function NavigationBar({opened, toggle}){
               target={controlsRefs[active]}
               parent={rootRef}
               className={'rounded-lg bg-[var(--mantine-color-bright)] border-solid border-1'}
-              p={16}
             />
-        </Flex>
+        </Group>
       </Paper>
+      </Grid.Col>
+      <Grid.Col span={2}>
       <Paper
-        withBorder
+        w={'100%'}
         h={'100%'}
+        withBorder
         radius={'lg'}
         className={'bg-linear-to-b from-[var(--mantine-color-dark-light)] to-[var(--surface-0)]'}
         onClick={() => toggleColorScheme()}
@@ -95,6 +106,8 @@ export default function NavigationBar({opened, toggle}){
       >
         <UnstyledButton>Change theme </UnstyledButton>
       </Paper>
+    </Grid.Col>
+    </Grid>
     </Flex>
   );
 }
