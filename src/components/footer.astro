@@ -1,0 +1,89 @@
+---
+import {Image} from 'astro:assets';
+import brandLight from '@assets/if-logo-light.svg';
+---
+
+<footer class="bg-stone-900 py-8 px-4 md:px-8">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="flex flex-col gap-4">
+      <h3 class="text-xl font-bold text-stone-300 font-inter">Ignacio Fernández</h3>
+      <p class="text-stone-400 font-inter">
+        Software Engineer basado en Uruguay. Especializado en desarrollo full-stack y soluciones end-to-end.
+      </p>
+      <Image src={brandLight} alt="Logo" height={50}/>
+    </div>
+    <div class="flex flex-col gap-4">
+      <h4 class="text-lg font-semibold text-stone-300 font-inter">Conectar</h4>
+      <ul class="flex flex-col gap-2">
+        <li>
+          <a
+                  href="https://linkedin.com/in/tu-perfil"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-stone-400 hover:text-blue-500 font-inter flex items-center gap-2"
+          >
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a
+                  href="https://github.com/tu-perfil"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-stone-400 hover:text-blue-500 font-inter flex items-center gap-2"
+          >
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+                  href="mailto:tu@email.com"
+                  class="text-stone-400 hover:text-blue-500 font-inter flex items-center gap-2"
+          >
+            <span>Email</span>
+          </a>
+        </li>
+        <li>
+          <a
+                  href="/path/to/cv.pdf"
+                  download
+                  class="text-stone-400 hover:text-blue-500 font-inter flex items-center gap-2"
+          >
+            <span>Descargar CV</span>
+          </a>
+        </li>
+        <li>
+          <a
+                  href="https://luna-software.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-stone-400 hover:text-blue-500 font-inter flex items-center gap-2"
+          >
+            <span>Luna Software</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="flex flex-col gap-4">
+      <h4 class="text-lg font-semibold text-stone-300 font-inter">Explorar</h4>
+      <ul class="flex flex-col gap-2">
+        <li>
+          <a href="/blog" class="text-stone-400 hover:text-blue-500 font-inter">Blog</a>
+        </li>
+        <li>
+          <a href="/projects" class="text-stone-400 hover:text-blue-500 font-inter">Proyectos</a>
+        </li>
+        <li>
+          <a href="/about" class="text-stone-400 hover:text-blue-500 font-inter">Sobre mí</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mt-8 pt-4 border-t border-stone-300 text-center">
+    <p class="text-stone-400 font-inter">
+      &copy; {new Date().getFullYear()} Ignacio Fernández. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>

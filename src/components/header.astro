@@ -1,0 +1,18 @@
+---
+import Image from 'astro/components/Image.astro';
+import {ClientRouter} from 'astro:transitions';
+import brandLight from "@assets/if-logo-light.svg";
+---
+
+<div class="w-full flex justify-center">
+  <ClientRouter/>
+  <header class="sm:max-w-3/4 grow bg-stone-200/25 p-2 m-2 sticky top-2 backdrop-blur-md rounded-xl border border-stone-500 flex gap-2 items-center">
+    <div class="bg-stone-900/50 p-2 rounded-xl border border-stone-500 shadow-2xl">
+      <Image src={brandLight} alt="Logo" height={40}/>
+    </div>
+    <nav class="flex ml-8 gap-8">
+      <a class="font-semibold" href="/">Home</a>
+      <a class="font-semibold" href="/blog">Blog</a>
+    </nav>
+  </header>
+</div>
