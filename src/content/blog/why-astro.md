@@ -8,6 +8,8 @@ tags: [ "astro", "react", "vite", "markdown" ]
 
 # Why astro?
 
+By [Ignacio Fernández](https://www.linkedin.com/in/ignaciofern%C3%A1ndez/) | Last modified: 24-06-2025
+
 > If the only tool you have is a hammer, you tend to see every problem as a nail.
 
 
@@ -17,8 +19,8 @@ so I set myself to the task of rebuilding my portfolio with all the knowledge th
 
 After a few iterations, I've found myself with a pretty good and simple roadmap:
 
-- ditch yarn(I don't know that I was thinking when I pick it either) and move to npm
-- migrate from class-focused css files to pre-built components like [Mantine](https://mantine.dev/), if needed [Tailwind](https://tailwindcss.com/)
+- ditch [yarn](https://yarnpkg.com/)(I don't know that I was thinking when I pick it either) and move to npm
+- migrate from class-focused approach files to pre-built components like [Mantine](https://mantine.dev/) and if needed [Tailwind](https://tailwindcss.com/)
 - add client-side routing using [React Router](https://reactrouter.com/)
 - add processing for markdown components, maybe something like [vitepress](https://vitepress.dev/) or some library to support github-flavored markdown
 
@@ -49,7 +51,7 @@ It was an opportunity to seriously learn what Astro was capable of
 
 ### Sometimes you dont have to think that much, you could just use an opinionated framework
 
-One of the things that I love and hate about React is the lack of "rules", yes you have good practices of course, but no one stops you from writing your Components in
+One of the things that I love as much as I hate about React is the lack of "rules", yes you have good practices of course, but no one stops you from writing your Components files in
 `kebab-case.tsx`, actually is how I prefer it!.
 
 Is good to have choices, but sometimes if the problem is trivial and thousand persons solved it before you, maybe you could re-use something. There are cases in which re-inventing
@@ -61,3 +63,5 @@ Once you have certain files and pretty straight forward configurations made, add
 dream.
 In just a few hours I've accomplished most of the tasks that I had planned, the heavy lifting is done, now I can focus in founding my tailwind classes, it really is the frontend
 dream.
+
+#astro #react #vite #markdown
