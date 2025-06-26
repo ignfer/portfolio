@@ -1,15 +1,19 @@
 ---
-import HeroContent from '@content/about/hero.mdx';
+import HeroContent from '@content/about/hero.md';
+import Image from 'astro/components/Image.astro';
+import Banner from '@assets/brand-banner.svg';
 ---
 
 <div
         id="hero"
-        class="w-full h-full flex flex-col items-center p-8"
+        class="w-full h-fit flex flex-col items-center p-8 gap-8"
 >
-  <h1 class="text-6xl tracking-tighter text-balance font-bold text-stone-900">Ignacio Fernández</h1>
-  <h2 class="text-4xl text-stone-600">Software engineer</h2>
-
-  <article class="sm:max-w-1/2 text-stone-500">
+  <div class="flex flex-col items-center gap-2">
+    <h1 class="text-6xl tracking-tighter text-balance font-bold text-stone-900">Ignacio Fernández</h1>
+    <h2 class="text-4xl text-stone-600">Software engineer</h2>
+  </div>
+  <hr class="w-2/4 text-stone-600"/>
+  <article class="sm:max-w-1/2 text-stone-500 prose">
     <HeroContent/>
   </article>
 </div>
