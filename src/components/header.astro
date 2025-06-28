@@ -2,15 +2,18 @@
 import Image from 'astro/components/Image.astro';
 import {ClientRouter} from 'astro:transitions';
 import brandDark from "@assets/if-logo-dark.svg";
+import brandGray from "@assets/ignfer-logo-gray.svg";
 ---
 
 <ClientRouter/>
-<header class="w-full p-2 top-0 sticky flex gap-2 items-center justify-between bg-stone-900 shadow-xl">
+<header class="w-full p-2 top-0 sticky flex gap-2 items-center justify-between bg-stone-950 shadow-xl">
   <nav class="flex gap-8">
-    <a class="font-space font-bold text-3xl text-stone-300" href="/">Home</a>
-    <a class="font-space font-bold text-3xl text-stone-300" href="/projects">Projects</a>
-    <a class="font-space font-bold text-3xl text-stone-300" href="/blog">Blog</a>
-    <a class="font-space font-bold text-3xl text-stone-300" href="/projects">Education</a>
+    <a class="font-space font-thin text-2xl text-stone-50 hover:underline" href="/">Home</a>
+    <a class="font-space font-thin text-2xl text-stone-50 hover:underline" href="/projects">Projects</a>
+    <a class="font-space font-thin text-2xl text-stone-50 hover:underline" href="/blog">Blog</a>
+    <a class="font-space font-thin text-2xl text-stone-50 hover:underline" href="/projects">Education</a>
   </nav>
-  <Image src={brandDark} alt="Logo" height={40}/>
+  <p class="font-space font-semibold text-4xl text-stone-500">
+    >ignfer_
+  <p>
 </header>

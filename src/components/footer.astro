@@ -1,6 +1,7 @@
 ---
 import {Image} from 'astro:assets';
 import brandLight from '@assets/if-logo-light.svg';
+import brandGray from "@assets/ignfer-logo-gray.svg";
 ---
 
 <footer class="bg-stone-900 py-8 px-4 md:px-8 font-space">
@@ -10,7 +11,11 @@ import brandLight from '@assets/if-logo-light.svg';
       <p class="text-stone-400 font-inter">
         Software Engineer basado en Uruguay. Especializado en desarrollo full-stack y soluciones end-to-end.
       </p>
-      <Image src={brandLight} alt="Logo" height={50}/>
+      <Image src={brandGray} alt="Logo" height={75}/>
+      <button onclick="window.scrollTo({top:0,left:0,behavior:'smooth'})"
+              class=" cursor-pointer bg-stone-900 text-stone-400 rounded-xs p-2 border-2 border-stone-400 hover:rounded-xl duration-200  hover:shadow-xl hover:shadow-stone-500/50 hover:text-stone-200 hover:border-stone-200 ">
+        Back to top
+      </button>
     </div>
     <div class="flex flex-col gap-4">
       <h4 class="text-lg font-semibold text-stone-300 font-inter">Conectar</h4>
