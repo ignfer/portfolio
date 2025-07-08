@@ -1,9 +1,9 @@
 ---
-title: "Why astro"
-description: "Why did I use Astro to build my portfolio?"
+title: "Why astro?"
+description: "If the only tool you have is a hammer, you tend to see every problem as a nail. Discover the pros and cons that I've found during the migration of my portfolio site to astro."
 pubDate: 2025-06-23
 author: "Ignacio Fernández"
-tags: [ "astro", "react", "vite", "markdown" ]
+tags: [ "frontend","astro" ]
 ---
 
 # Why astro?
@@ -51,7 +51,8 @@ It was an opportunity to seriously learn what Astro was capable of
 
 ### Sometimes you dont have to think that much, you could just use an opinionated framework
 
-One of the things that I love as much as I hate about React is the lack of "rules", yes you have good practices of course, but no one stops you from writing your Components files in
+One of the things that I love as much as I hate about React is the lack of "rules", yes you have good practices of course, but no one stops you from writing your Components files
+in
 `kebab-case.tsx`, actually is how I prefer it!.
 
 Is good to have choices, but sometimes if the problem is trivial and thousand persons solved it before you, maybe you could re-use something. There are cases in which re-inventing
@@ -63,5 +64,3 @@ Once you have certain files and pretty straight forward configurations made, add
 dream.
 In just a few hours I've accomplished most of the tasks that I had planned, the heavy lifting is done, now I can focus in founding my tailwind classes, it really is the frontend
 dream.
-
-#astro #react #vite #markdown

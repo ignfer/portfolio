@@ -2,8 +2,8 @@
 title: About Ignacio Fernández
 ---
 
-Hi! I am [Ignacio](https://www.linkedin.com/in/ignaciofern%C3%A1ndez/), a 23 years old software developer residing in Uruguay and my [motto](https://en.wikipedia.org/wiki/Motto)
-is [this](https://world.hey.com/dhh/it-must-be-worth-it-even-if-it-doesn-t-work-1e7f49fc)
+Hi! I am [Ignacio](https://www.linkedin.com/in/ignaciofern%C3%A1ndez/), a 23 years old software engineer residing in Uruguay, focused and developing with
+[this as my north star](https://world.hey.com/dhh/it-must-be-worth-it-even-if-it-doesn-t-work-1e7f49fc).
 > It must be worth it even if it doesn't work
 
 I've been working full time since April 2024 as a fullstack developer at [Cargonet](https://www.linkedin.com/company/austral-cargo/posts/?feedView=all), an Uruguayan Freight
