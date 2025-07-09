@@ -5,18 +5,21 @@ import Header from "../components/header.astro";
 export interface Props {
 	title: string;
 	description: string;
-	pubDate: Date;
+	lastModified: string;
 	author?: string;
 	image?: string;
 	tags?: string[];
 	slug: string;
 }
 
-const {title, description, pubDate, author, image, tags, slug} = Astro.props;
+const {title, description, lastModified, author, image, tags, slug} = Astro.props;
 ---
 <Layout>
   <main class="container mx-auto px-4 py-8 max-w-4xl">
     <article>
+      <button onclick="window.location.href='/blog'" class="sticky top-16 font-space bg-stone-50 border border-stone-200 p-2 rounded-md">
+        ← go back
+      </button>
       <div class="font-inter prose prose-lg max-w-none text-stone-900">
         <slot/>
       </div>

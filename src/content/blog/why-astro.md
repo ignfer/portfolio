@@ -1,14 +1,14 @@
 ---
 title: "Why astro?"
 description: "If the only tool you have is a hammer, you tend to see every problem as a nail. Discover the pros and cons that I've found during the migration of my portfolio site to astro."
-pubDate: 2025-06-23
+lastModified: 07-08-2025
 author: "Ignacio Fernández"
-tags: [ "frontend","astro" ]
+tags: [ "frontend","astro","markdown" ]
 ---
 
 # Why astro?
 
-By [Ignacio Fernández](https://www.linkedin.com/in/ignaciofern%C3%A1ndez/) | Last modified: 24-06-2025
+By [Ignacio Fernández](https://www.linkedin.com/in/ignaciofern%C3%A1ndez/) | Last modified: 07-08-2025
 
 > If the only tool you have is a hammer, you tend to see every problem as a nail.
 
