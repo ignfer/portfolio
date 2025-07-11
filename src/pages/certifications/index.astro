@@ -3,12 +3,16 @@ import '@styles/global.css';
 import Footer from "../../components/footer.astro";
 import Header from "../../components/header.astro";
 import Layout from "../../layouts/Layout.astro";
+
+import CertificationsContent from "@content/certifications/certifications.md"
 ---
 <Layout>
 <div class="w-screen h-screen flex flex-col">
   <Header/>
-  <div class="flex flex-grow">
-    Certifications
+  <div class="flex flex-col flex-grow justify-center items-center">
+    <article class="font-inter md:max-w-1/2 text-stone-600 prose p-8 text-sm">
+      <CertificationsContent/>
+    </article>
   </div>
   <Footer/>
 </div>

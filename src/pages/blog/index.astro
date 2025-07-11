@@ -7,6 +7,18 @@ import Layout from "../../layouts/Layout.astro";
 
 const allPosts = await getCollection('blog');
 ---
+<script defer>
+  import {navigate} from 'astro:transitions/client';
+
+  document.getElementById('post-list')?.addEventListener('click', (e) => {
+    const el = e.target.closest('.post-card');
+    if (el?.dataset?.slug) {
+      navigate(`/blog/${el.dataset.slug}`);
+    }else{
+      console.log('anashe');
+    }
+  });
+</script>
 <Layout>
 <div class="w-screen h-screen flex flex-col">
   <Header/>
@@ -37,14 +49,4 @@ const allPosts = await getCollection('blog');
   </div>
   <Footer/>
 </div>
-  <script type="module">
-    import {navigate} from 'astro:transitions/client';
-
-    document.getElementById('post-list')?.addEventListener('click', (e) => {
-      const el = e.target.closest('.post-card');
-      if (el?.dataset?.slug) {
-        navigate(`/blog/${el.dataset.slug}`);
-      }
-    });
-  </script>
 </Layout>
