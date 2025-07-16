@@ -1,16 +1,20 @@
 ---
 import {ClientRouter} from 'astro:transitions';
+import HeaderLinkAndShortcut from "./header/HeaderLinkAndShortcut.astro";
 ---
 
 <ClientRouter/>
-<header class="w-full p-2 px-8 top-0 sticky flex gap-2 items-center justify-between bg-stone-900 shadow-xl">
+<div class="w-full top-0 fixed shadow-xl">
+<header class=" p-2 px-8 flex gap-2 items-center justify-between bg-stone-900">
   <nav class="flex gap-8 max-sm:grid max-sm:grid-cols-2 max-sm:grid-rows-2 max-sm:gap-2">
-    <a class="font-space font-semibold text-2xl text-stone-50 hover:underline" href="/home">/home</a>
-    <a class="font-space font-semibold text-2xl text-stone-50 hover:underline" href="/projects">/projects</a>
-    <a class="font-space font-semibold text-2xl text-stone-50 hover:underline" href="/blog">/blog</a>
-    <a class="font-space font-semibold text-2xl text-stone-50 hover:underline" href="/certifications">/certifications</a>
+    <HeaderLinkAndShortcut link="/home" shortcut="alt + h"/>
+    <HeaderLinkAndShortcut link="/projects" shortcut="alt + p"/>
+    <HeaderLinkAndShortcut link="/blog" shortcut="alt + b"/>
+    <HeaderLinkAndShortcut link="/certifications" shortcut="alt + c"/>
   </nav>
-  <p class="font-space font-semibold text-4xl text-stone-50 max-sm:hidden">
+  <p class="font-space font-semibold text-4xl text-stone-400 max-sm:hidden">
     >ignfer_
   </p>
 </header>
+<div class="h-8 backdrop-blur-xs bg-stone-700/25 border-b border-stone-400/25"/>
+</div>

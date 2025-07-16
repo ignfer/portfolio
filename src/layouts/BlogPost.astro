@@ -26,12 +26,12 @@ const {
 
 <Layout>
   <Header/>
-  <main class="container mx-auto px-4 py-8 max-w-4xl">
+  <main class="flex-grow container mx-auto px-4 py-8 max-w-4xl">
     <article>
-      <button id="post-go-back" class="sticky top-16 font-space bg-stone-50 border border-stone-200 p-2 rounded-md cursor-pointer text-stone-500">
+      <button id="post-go-back" class="sticky top-18 font-space bg-linear-to-t from-stone-100 to-stone-200 border border-stone-200 p-2 rounded-md cursor-pointer text-stone-500">
         ← go back
       </button>
-      <div class="font-inter prose prose-lg max-w-none text-stone-900">
+      <div class="font-inter prose prose-md max-w-none text-stone-900">
         <slot/>
       </div>
     </article>

@@ -1,0 +1,12 @@
+---
+interface Props {
+  link: string
+  shortcut: string
+}
+
+const {link, shortcut} = Astro.props
+---
+<div class="flex flex-col">
+  <span class="w-fit px-2 font-mono font-thin text-xs text-stone-400 border border-stone-800 rounded-md">{shortcut}</span>
+  <a class="font-space font-semibold text-2xl text-stone-50 hover:underline" href={link}>{link}</a>
+</div>
