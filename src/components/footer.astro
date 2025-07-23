@@ -12,7 +12,7 @@ import brandGray from "@assets/ignfer-logo-gray.svg";
       </p>
       <Image src={brandGray} alt="Logo" height={75}/>
       <button onclick="window.scrollTo({top:0,left:0,behavior:'smooth'})"
-              class=" cursor-pointer bg-stone-900 text-stone-400 rounded-xs p-2 border-2 border-stone-400 hover:rounded-xl duration-200  hover:shadow-xl hover:shadow-stone-500/50 hover:text-stone-200 hover:border-stone-200 ">
+              class="btn bg-linear-to-t from-stone-800 to-stone-900 border-stone-700">
         Back to top ↑
       </button>
     </div>
@@ -20,39 +20,22 @@ import brandGray from "@assets/ignfer-logo-gray.svg";
       <h4 class="text-lg font-semibold text-stone-300">Let's connect</h4>
       <ul class="flex flex-col gap-2">
         <li>
-          <a
-                  href="https://www.linkedin.com/in/ignaciofern%C3%A1ndez/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-stone-400 hover:text-blue-500 flex items-center gap-2"
-          >
+          <a href="https://www.linkedin.com/in/ignaciofern%C3%A1ndez/" target="_blank" rel="noopener noreferrer" class="footer-item flex items-center gap-2">
             <span>LinkedIn</span>
           </a>
         </li>
         <li>
-          <a
-                  href="https://github.com/ignfer"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-stone-400 hover:text-blue-500 flex items-center gap-2"
-          >
+          <a href="https://github.com/ignfer" target="_blank" rel="noopener noreferrer" class="footer-item flex items-center gap-2">
             <span>GitHub</span>
           </a>
         </li>
         <li>
-          <a
-                  href="mailto:nacho@ignfer.com"
-                  class="text-stone-400 hover:text-blue-500 flex items-center gap-2"
-          >
+          <a href="mailto:nacho@ignfer.com" class="footer-item flex items-center gap-2">
             <span>Email</span>
           </a>
         </li>
         <li>
-          <a
-                  href="/src/assets/Ignacio_Fernandez_cv.pdf"
-                  download
-                  class="text-stone-400 hover:text-blue-500 flex items-center gap-2"
-          >
+          <a href="/src/assets/Ignacio_Fernandez_cv.pdf" download class="footer-item flex items-center gap-2">
             <span>Download resume</span>
           </a>
         </li>
@@ -63,16 +46,16 @@ import brandGray from "@assets/ignfer-logo-gray.svg";
       <h4 class="text-lg font-semibold text-stone-300">Explore</h4>
       <ul class="flex flex-col gap-2">
         <li>
-          <a href="/blog" class="text-stone-400 hover:text-blue-500">Blog</a>
+          <a href="/" class="footer-item">Home</a>
         </li>
         <li>
-          <a href="/projects" class="text-stone-400 hover:text-blue-500">Proyectos</a>
+          <a href="/projects" class="footer-item">Projects</a>
         </li>
         <li>
-          <a href="/education" class="text-stone-400 hover:text-blue-500">Education</a>
+          <a href="/blog" class="footer-item">Blog</a>
         </li>
         <li>
-          <a href="/" class="text-stone-400 hover:text-blue-500">Home</a>
+          <a href="/certifications" class="footer-item">Certifications</a>
         </li>
       </ul>
     </div>

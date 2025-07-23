@@ -1,0 +1,16 @@
+@import './global.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    .btn {
+        @apply cursor-pointer duration-200 font-space rounded-md text-stone-500 p-2 border hover:-translate-y-2 hover:shadow-md
+    }
+
+    .footer-item {
+        @apply text-stone-400 hover:text-blue-500
+    }
+}

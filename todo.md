@@ -1,3 +1,1 @@
-- fix screen size on sm screen sizes
-- fix height jump on blogs section
-- add education/certification section, probably merging everything in one page at least for now
+- fix resume
