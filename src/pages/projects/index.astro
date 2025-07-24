@@ -1,0 +1,24 @@
+---
+import '@styles/global.css';
+import Header from "../../components/header.astro";
+import Footer from "../../components/footer.astro";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout>
+<div class="w-screen h-screen flex flex-col">
+  <Header/>
+  <div class="flex flex-col flex-grow items-center justify-center mt-8 max-sm:mt-32">
+    <div class="bg-yellow-500/25 border border-stone-900/10 p-8 rounded-2xl">
+      <h1 class="font-space font-semibold text-4xl ">🚧Work in progress🦺</h1>
+      <br/>
+      <h2>I'm currently working on multiple projects as you read this, come back soon to see them!.</h2>
+      <br/>
+      <p>
+        In the meantime, check my <a class="underline" href="/certifications">certifications</a>, read a <a class="underline" href="/blog">blog entry</a> or learn more about my ongoing journey working as a <a class="underline" href="/home"> full stack developer.</a>
+      <p>
+    </div>
+  </div>
+  <Footer/>
+</div>
+</Layout>

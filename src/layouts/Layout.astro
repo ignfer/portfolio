@@ -1,0 +1,23 @@
+---
+import '@styles/global.css';
+import '@styles/utilites.css';
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width"/>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <meta name="generator" content={Astro.generator}/>
+  <title>Ignacio Fernández | Software Engineer</title>
+
+  <script>
+		import '@assets/scripts/lenis-smooth-scroll';
+    import '@assets/scripts/shortcuts';
+  </script>
+</head>
+<body class="h-screen flex flex-col">
+  <slot/>
+</body>
+</html>

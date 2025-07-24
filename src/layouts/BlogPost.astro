@@ -1,0 +1,39 @@
+---
+import Layout from './Layout.astro';
+import Header from "../components/header.astro";
+import Footer from "../components/footer.astro";
+import GoBackButton from '../components/button/go-back-button';
+
+export interface Props {
+	title: string;
+	description: string;
+	lastModified: string;
+	author?: string;
+	image?: string;
+	tags?: string[];
+	slug: string;
+}
+
+const {
+  title,
+  description,
+  lastModified,
+  author,
+  image,
+  tags,
+  slug
+} = Astro.props;
+---
+
+<Layout>
+  <Header/>
+  <main class="flex-grow container mx-auto px-4 py-8 max-w-4xl mt-32 max-sm:mt-36">
+    <article>
+      <div class="font-inter prose prose-md max-w-none text-stone-600">
+        <slot/>
+        <GoBackButton client:load/>
+      </div>
+    </article>
+  </main>
+  <Footer/>
+</Layout>
