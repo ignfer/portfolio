@@ -7,8 +7,11 @@ import mdx from '@astrojs/mdx';
 
 import react from '@astrojs/react';
 
+import sitemap from '@astrojs/sitemap';
+
 // https://astro.build/config
 export default defineConfig({
+    site: 'https://ignfer.com',
     redirects: {
       '/': '/home'
     },
@@ -27,5 +30,5 @@ export default defineConfig({
         },
         plugins: [tailwindcss()]
     },
-    integrations: [icon(), mdx(), react()],
+    integrations: [icon(), mdx(), react(), sitemap()],
 });
