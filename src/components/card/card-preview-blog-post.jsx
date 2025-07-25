@@ -9,7 +9,7 @@ export default function CardPreviewBlogPost ({post,...props}){
         <CardBase
             onClick={() => !post.data.draft  && navigate(`/blog/${post.slug}`)}
             data-draft={post.data.draft}
-            className={"group data-[draft=true]:cursor-not-allowed data-[draft=true]:opacity-70"}
+            className={"group data-[draft=true]:cursor-not-allowed data-[draft=true]:opacity-70 z-[-1]"}
         >
             <div className="flex flex-row justify-between">
                 <h2 className="font-inter text-stone-900 font-bold underline group-data-[draft=true]:no-underline">{post.data.title}</h2>
