@@ -1,10 +1,7 @@
-
-
-
 ![img](../../../src/assets/organizations/efset.png)
 ## English Standardized Test (EFSET)
 **Institution:** [EFSET](https://www.efset.org/)  
-**Status:** *Completed* — C2 Proficient, 78/100  
+**Status:** *Completed* — C2 Proficient, **78/100**  
 **Year:** 2023  
 **Certification:** [View Certificate](https://efset.org/cert/vdK9m4)
 
@@ -12,22 +9,37 @@
 English, Language certification
 
 **Description:**  
-The EF Standard English Test is a standardized test of the English language designed for non-native English speakers. It is the product of EF Education First, a global language training company, and a team of language assessment experts including Lyle Bachman, Mari Pearlman, and Ric Luecht. EF compares the EFSET's accuracy to the most widely used high-stakes standardized English tests: TOEFL, IELTS, and Cambridge International Examinations.
+The EFSET is a globally recognized English proficiency test for non-native speakers, created by EF Education First. It offers a reliable measure comparable to TOEFL or IELTS.
 
 ---
 
 ![img](../../../src/assets/organizations/utec.png)
 ## Technologist Degree in Computer Science
 **Institution:** [UTEC - UDELAR](https://utec.edu.uy/en/education/undergraduate-study/technologist-degree-in-computer-science/)  
-**Status:** *In course* — First two years already completed with a **4.6/5 GPA**  
+**Status:** *In course* — First two years already completed with a **GPA: 3.68/4.00**  
 **Years:** 2022 - Present
 
 **Key Skills:**  
 C++, Java, MySQL, Linux, Network administration, Computer Networks, Relational Databases, Assembly, Python
 
 **Description:**  
-The Technologist Degree in Computer Science trains professionals with the skills to act in the development, implementation and administration of computer systems. A fundamental aspect is that although students use different technologies throughout their degree, the focus is on that when they graduate from it, they are able to adapt to working with new technologies that arise or that they have not studied at throughout the degree. This aspect of training is fundamental, especially taking into account the constant evolution of tools and technologies in the IT field.
- 
+This degree prepares professionals to build, manage, and adapt software systems across technologies. Emphasis is placed on versatility and long-term learning over specific tools.
+
+---
+
+![img](../../../src/assets/organizations/cargowise.png)
+## CargoWise Certified Operator
+**Institution:** [WiseTech Academy](https://wisetechacademy.com)  
+**Status:** *Completed*  
+**Year:** 2025  
+**Certification:** [View Certificate](https://wisetechacademy.com/certificate-validation?credential=4d1b4981-5781-4594-8935-5934d359d71a)
+
+**Key Skills:**  
+Freight forwarding, Logistics operations, CargoWise, Supply chain software
+
+**Description:**  
+The CargoWise Certified Operator credential validates practical skills in using CargoWise, a leading logistics platform used by freight forwarders and supply chain professionals worldwide. It certifies the ability to navigate and operate core system functions efficiently.
+
 ---
 
 ![img](../../../src/assets/organizations/altimetrik.png)
@@ -35,13 +47,13 @@ The Technologist Degree in Computer Science trains professionals with the skills
 **Institution:** [Altimetrik Uruguay](https://www.linkedin.com/posts/altimetrikuy_salesforce-bootcamp-2023-activity-7105190139928154112-UsNM?utm_source=share&utm_medium=member_desktop)  
 **Status:** *Completed*  
 **Year:** 2023  
-**Certification:** [View Project Certificate](https://www.linkedin.com/in/ignaciofern%C3%A1ndez/overlay/1704245978475/single-media-viewer/?profileId=ACoAAClJnbEBH4QPy9OzpMPGilPUGiKgzuhV-aI)
+**Certification:** [View Certificate](https://www.linkedin.com/in/ignaciofern%C3%A1ndez/overlay/1704245978475/single-media-viewer/?profileId=ACoAAClJnbEBH4QPy9OzpMPGilPUGiKgzuhV-aI)
 
 **Key Skills:**  
 Salesforce, Apex, Lightning web components, REST, Unit Testing
 
 **Description:**  
-The bootcamp consisted of an 8-week training course through Trailhead. Additionally, we had biweekly reviews with a project manager who guided us through the learning content. At the end of the bootcamp, we were challenged to develop a system capable of handling legal advisors and clients retrieved from a REST API on Heroku. The successful completion of that project earned me the certification for completing the bootcamp.
+Intensive 8-week bootcamp focused on building Salesforce apps using Apex and LWC. Final project involved integrating a Heroku-hosted API for managing legal advisors and clients.
 
 ---
 
@@ -49,10 +61,10 @@ The bootcamp consisted of an 8-week training course through Trailhead. Additiona
 ## Technological Middle Education
 **Institution:** [ANEP - UTU](https://www.utu.edu.uy/educacion-media-tecnologica-informatica-enfasis-desarrollo-y-soporte-desarrollo-web-videojuegos)  
 **Status:** *Completed*  
-**Years:** 2017 - 2019
+**Years:** 2017 - 2019 **GPA: 3.33/4.00** 
 
 **Key Skills:**  
 Java, MySQL, Relational Databases, Visual Basics, Arduino, Computer Networks, Operative Systems, Linux, PC Maintenance
 
 **Description:**  
-The course empowers graduates with a diverse skill set for success in technology. They gain expertise in development, technical support and consultation. The program covers network installation, configuration of operating systems, and integration into larger development teams. Graduates excel in executing IT tasks, applying project methodologies, and contributing to interdisciplinary teams. This program provides a solid foundation for a dynamic and successful career in technology.
+Technical high school program focused on programming, networking, and PC maintenance. Provided hands-on training in Java, databases, and operating systems.

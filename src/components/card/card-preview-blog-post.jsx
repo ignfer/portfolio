@@ -6,8 +6,8 @@ import { navigate } from 'astro:transitions/client';
 
 export default function CardPreviewBlogPost ({post,...props}){
     return(
+        <div onClick={() => !post.data.draft  && navigate(`/blog/${post.slug}`)}>
         <CardBase
-            onClick={() => !post.data.draft  && navigate(`/blog/${post.slug}`)}
             data-draft={post.data.draft}
             className={"group data-[draft=true]:cursor-not-allowed data-[draft=true]:opacity-70 z-[-1]"}
         >
@@ -22,12 +22,13 @@ export default function CardPreviewBlogPost ({post,...props}){
                 {
                     post.data.tags?.map((t) => {
                         return (
-                            <BadgeTag content={t}/>
+                            <BadgeTag key={t} content={t}/>
                         )
                     })
                 }
             </div>
             <p className="text-stone-500 text-sm">{post.data.description}</p>
         </CardBase>
+        </div>
     )
 }

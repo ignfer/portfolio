@@ -1,0 +1,18 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Footer from "@components/footer.astro";
+import Header from "@components/header.astro";
+import ButtonWithRedirect from "@components/button/button-with-redirect";
+---
+
+<Layout>
+  <div class="w-full h-screen flex flex-col">
+    <Header/>
+    <div class="flex flex-col flex-grow gap-8 p-8 justify-center items-center mt-24 max-sm:mt-32">
+      <h1 class="font-space font-semibold text-6xl max-sm:text-2xl">404 - Not found</h1>
+      <h2 class="font-space text-2xl">It seems like the content you’re looking for isn’t here. Let’s guide you to something that is.</h2>
+      <ButtonWithRedirect label={"Get back on tracks"} path={"/home"} client:load/>
+    </div>
+    <Footer/>
+  </div>
+</Layout>
