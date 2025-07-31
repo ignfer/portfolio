@@ -19,7 +19,7 @@ I follow closely what's happening in the software industry and how small startup
 I've been working full time since April 2024 as a fullstack developer at [Cargonet](https://www.linkedin.com/company/austral-cargo/posts/?feedView=all), an Uruguayan Freight
 Forwarder agent. When I first started I had no idea about what a freight forwarder was but I loved the challenge as much as the opportunity.
 
-Since then, I've been working in a small team with great people (such as [Diego]()) within a fast-paced environment, this job allowed me to build my trust as a developer with real world experience, I
+Since then, I've been working in a small team with great people (such as [Diego](https://www.linkedin.com/in/diego-villalba-da/)) within a fast-paced environment, this job allowed me to build my trust as a developer with real world experience, I
 am lucky being able to build software that solves real problems, and experience deploying a feature in the morning and getting feedback from the end users during lunch.
 
 I've tackled a wide range of problems in every stage of my career here, so taking into consideration [this great article](https://basecamp.com/handbook/titles-for-programmers) as a
