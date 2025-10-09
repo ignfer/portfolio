@@ -1,4 +1,1 @@
-- fix: initial redirect
-- feat: resume
-- feat: re-order home section info, separate current job experience
-- fix: opengraph image and tags 
+- feat: re-order home section info, separate current job experience 
